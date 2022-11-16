@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+
+
+/* slide - slick */
+
+.slick-prev,
+.slick-next{
+    width: 70px;
+    height: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    opacity: .5;
+    transition: .3s ease-out;
+}
+.slick-prev{
+    left: 75px;
+    background-image: url('../../img/arrow-left2.png');
+}
+.slick-next{
+    right: 75px;
+    background-image: url('../../img/arrow-right2.png');
+}
+.slick-prev:before, .slick-next:before{
+    color: transparent;    
+}
+
+
+
+/* brand-story - slick */
+
+.brand-story-slick .slick-prev{
+    left: 0;
+    background-image: url('../../img/arrow-left2-black.png');
+    opacity: .25;
+}
+.brand-story-slick .slick-next{
+    right: 0;
+    background-image: url('../../img/arrow-right2-black.png');
+    opacity: .25;
+}
+
+@media (max-width: 1200px){
+    .slick-prev,
+    .slick-next{
+        width: 50px;
+    }
+    .slick-prev{
+        left: 30px;
+    }
+    .slick-next{
+        right: 30px;
+    }
+    .brand-story-slick .slick-prev{
+        left: 0px;
+    }
+    .brand-story-slick .slick-next{
+        right: 0px;
+    }
+}
+
+@media (max-width: 480px){
+    .slick-prev,
+    .slick-next{
+        display: none !important;
+    }
+}

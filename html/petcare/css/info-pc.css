@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+
+
+#search .inner{
+    padding: 0 60px 160px 60px;
+}
+.result-wrap{
+    gap: 60px;
+}
+.result{
+    gap: 10%;
+}
+.result-img{
+    width: 240px;
+}

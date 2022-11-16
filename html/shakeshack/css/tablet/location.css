@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+
+.section{
+    padding: 0 20px;
+}
+#main-logo{
+    width: 150px;
+}
+#main-menu{
+    gap: 20px;
+}
+#main-menu li a{
+    font-size: 14px;
+}
+
+
+
+.right{
+    padding: 0;
+}
+.location-menu-kr{
+    font-size: 14px;
+}
+.location-menu-en{
+    display: none;
+}
+
+
+
+
+.footer-logo{
+    display: none;
+}

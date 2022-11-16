@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+
+/* -------------------------------------------------------section------------------------------------------------------- */
+/* section */
+
+.inner{
+    width: 90%;
+
+    gap: 20px;
+}
+
+
+
+
+
+/* -------------------------------------------------------scroll & copyright------------------------------------------------------- */
+/* scroll */
+
+
+.scroll-copy-wrap{
+    bottom: 25px;
+
+    gap: 15px;
+}
+.scroll-copy-wrap.change2{
+    bottom: 35px;
+}
+.scroll-wrap{
+    gap: 5px;
+}
+
+
+
+
+
+/* -------------------------------------------------------title & main-box------------------------------------------------------- */
+/* title */
+
+
+/* main-box */
+
+.main-box.change{
+    height: 500px;
+}
+.main-box.change2{
+    height: 500px;
+}
+.main-box-slide.slide0{
+    margin-top: 0;
+}
+.main-box-slide.slide1{
+    margin-top: -500px;
+}
+.main-box-slide.slide2{
+    margin-top: -1000px;
+}
+.main-box-slide.slide3{
+    margin-top: -1500px;
+}
+.main-box-slide.slide4{
+    margin-top: -2000px;
+}
+.main-box-slide.slide5{
+    margin-top: -2500px;
+}
+
+
+
+
+
+/* -------------------------------------------------------mainbox-contents-01------------------------------------------------------- */
+/* about-me */
+
+.about-me-wrap{
+    padding: 60px 40px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+}
+.about-me-title{
+    font-size: 20px;
+}
+.profile, .education, .license, .skill{
+    gap: 5px;
+}
+.profile span, .education span, .license span, .skill span{
+    width: 70px;
+
+    font-size: 15px;
+}
+.profile p, .education p, .license p{
+    font-size: 15px;
+}
+.skill-top{
+    gap: 15px 30px;
+}
+
+
+
+
+
+/* -------------------------------------------------------mainbox-contents-01------------------------------------------------------- */
+/* project */
+
+.project-wrap{
+    padding: 0 40px;
+}
+.project{
+    gap: 40px;
+}
+.project-homepage-wrap{
+    min-width: 250px;
+}
+.project-view{
+    width: 100% !important;
+}
+.project-info-wrap{
+    gap: 15px;
+}
+.project-title-wrap{
+    gap: 15px;
+}
+.project-logo{
+    width: 42px;
+}
+.project-title{
+    font-size: 30px;
+}
+.project-info{
+    gap: 20px;
+}
+.info-text{
+    font-size: 12px;
+}
+.use-skill-wrap span{
+    font-size: 14px;
+}
+.use-skill-wrap p{
+    font-size: 14px;
+}
+.page-view li{
+    max-width: 200px;
+    width: 47.5%;
+    height: 38px;
+}
+.use-skill-wrap{
+    gap: 5px;
+}
+.use-skill{
+    gap: 30px;
+}
+.square{
+    width: 16px;
+    height: 16px;
+}
+.use-skill-wrap p{
+    font-size: 12px;
+}
+.page-view a{
+    gap: 5%;
+}
+.page-view img{
+    width: 18px;
+}
+.page-view p{
+    font-size: 12px;
+}
+
+
+
+
+/* -------------------------------------------------------mainbox-contents-04------------------------------------------------------- */
+/* contact-me */
+
+.contact-me{
+    gap: 20px;
+}
+.mail, .phone{
+    gap: 20px;
+}
+.mail img, .phone img{
+    width: 30px;
+}
+.mail p, .phone p{
+    font-size: 24px;
+    color: #fff;
+}

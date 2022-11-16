@@ -1,0 +1,277 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "regular";
+    src: url('../font/CBRegular.ttf');
+}
+
+
+
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "regular";
+}
+html{
+    min-width: 320px;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+
+
+/* section */
+
+.section{
+    width: 100%;
+    height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #69f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.inner{
+    width: 1200px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+
+
+/* logo */
+
+.main-logo{
+    width: 300px;
+    /* height: auto; */
+    transition: .5s ease-out;
+}
+.main-logo img{
+    width: 100%;
+}
+
+
+
+/* select-wrap */
+
+.select-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    transition: .5s ease-out;
+}
+.title-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.option1-text{
+    font-size: 32px;
+    color: #fff;
+}
+
+
+
+/* qustion */
+
+.question-wrap{
+    width: 25px;
+    height: 25px;
+}
+.question{
+    width: 100%;
+    position: relative;
+}
+.question img{
+    width: 100%;
+}
+.qustion-text{
+    width: 320px;
+    height: 136px;
+    padding: 20px;
+    background-image: url('../img/petcare-question-bg.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.12); */
+    text-align: center;
+    position: absolute;
+    top: -136px;
+    right: -17px;
+    display: none;
+}
+.qustion-text p,
+.qustion-text span{
+    font-size: 14px;
+    line-height: 18px;
+    word-break: keep-all;
+}
+.qustion-text p{
+    margin-bottom: 10px;
+}
+.qustion-text span{
+    color: #48f;
+    margin-top: 10px;
+}
+
+
+
+.option1,
+.option2,
+.option3,
+.search{
+    width: 15%;
+    padding: 15px 0;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    appearance: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+    transition: .5s ease-out;
+}
+
+
+
+/* option1-wrap */
+
+.option1-wrap{
+    width: 70%;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* option2 */
+
+.option2{
+    width: 82.775%;
+    padding-left: 15px;
+    text-align: left;
+}
+option:disabled{
+    color: #ccc;
+}
+
+
+
+/* option3 */
+
+.option3-wrap{
+    width: 70%;
+    display: none;
+}
+.option3-text{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+}
+.option3{
+    width: 100%;
+    height: 250px;
+    overflow-y: auto;
+    padding-left: 10px;
+    background-color: transparent;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.option3::-webkit-scrollbar{
+    width: 3px;
+    height: 250px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.option3::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 50px;
+}
+.option3::-webkit-scrollbar-track{
+    background-color: rgba(255, 255, 255, .25);
+    border-radius: 50px;
+}
+.checkbox-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: .5s ease-out;
+}
+.option3-checkbox{
+    display: flex;
+    gap: 10px;
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    min-width: 16px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    background: #fff;
+}
+input[type="checkbox"]:checked{
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    position: relative;
+    background-color: #26f;
+}
+input[type="checkbox"]:checked::after {
+    content:'✔';
+    font-size: 16px;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+label{
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* search */
+
+.search{
+    width: 70%;;
+    padding: 17px 0;
+    margin-bottom: 80px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: #48f;
+}
+
+
+
+
+

@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+
+header{
+    height: 80px;
+}
+#main-logo{
+    width: 160px;
+}
+#main-menu{
+    display: none;
+}
+#burger_menu{
+    display: block;
+}
+
+
+.menu-section{
+    height: 300px;
+}
+.menu-section .inner ul li{
+    width: 15.000275%;
+    height: 50px;
+    border-radius: 7px;
+}
+
+
+
+.location-title{
+    height: 90px;
+}
+.title-kr{
+    font-size: 20px;
+    line-height: 28px;
+}
+.title-line{
+    height: 20px;
+}
+.title-en{
+    font-size: 18px;
+    line-height: 28px;
+}
+.location-menu-kr{
+    line-height: 16px;
+}
+
+
+
+
+
+.left{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+/* .right{
+    height: 400px;
+} */
+.right-top h6{
+    font-size: 12px;
+    font-weight: unset;
+    color: #333;
+    letter-spacing: -1px;
+}
+.right-top h6 br{
+    display: none;
+}
+.location-info-text li{
+    gap: 20px;
+}
+.location-info-text li b{
+    font-size: 12px;
+    line-height: 18px;
+}
+.location-info-text li p{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+
+
+.footer-top{
+    flex-direction: column;
+    gap: 40px;
+}
+.footer-bot p{
+    font-size: 10px;
+}

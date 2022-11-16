@@ -1,0 +1,516 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'NeutraTextTF-Demi';
+    src: url('../fonts/NeutraTextTF-Demi.otf') format('truetype');
+}
+@font-face {
+    font-family: 'NeutraTextTF-Bold';
+    src: url('../fonts/NeutraTextTF-Bold.otf') format('truetype');
+}
+@font-face {
+    font-family: 'NotoSansKR-Regular';
+    src: url('../fonts/NotoSansKR-Regular.otf') format('truetype');
+}
+@font-face {
+    font-family: 'NotoSansKR-Bold';
+    src: url('../fonts/NotoSansKR-Bold.otf') format('truetype');
+}
+
+
+
+
+/* reset */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a, p, span, h1, h2, h3, h4, h5, h6{
+    text-decoration: none;
+    color: #131313;
+    /* word-break: keep-all; */
+}
+html{
+    overflow-x: hidden;
+    font-family: 'NotoSansKR-Regular';
+}
+body{
+    min-width: 320px;
+}
+.section{
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    width: 1200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.title{
+    font-size: 32px;
+    font-family: "NeutraTextTF-Bold";
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+
+
+/* header */
+
+/* header-frame */
+
+header{
+    height: 90px;
+    background-color: #2b2b2b;
+}
+header nav{
+    justify-content: space-between;
+}
+
+
+
+/* header-contents */
+
+#main-logo{
+    width: 250px;
+}
+#main-menu{
+    display: flex;
+    gap: 60px;
+}
+#main-menu li a{
+    font-size: 18px;
+    font-family: 'NeutraTextTF-Bold';
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+/* header-mobile-menu */
+
+#burger_menu{
+    display: none;
+}
+#burger_menu{
+    width: 30px;
+    height: 20px;
+    display: none;
+    position: relative
+}
+#burger_menu div{
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    position: absolute;
+    transition: .3s ease-out;
+}
+#burger_menu div:nth-child(1){
+    top: 0;
+}
+#burger_menu.on div:nth-child(1){
+    top: 9px;
+    transform: rotateZ(45deg);
+}
+#burger_menu div:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+}
+#burger_menu.on div:nth-child(2){
+    opacity: 0;;
+}
+#burger_menu div:nth-child(3){
+    bottom: 0;
+}
+#burger_menu.on div:nth-child(3){
+    bottom: 9px;
+    transform: rotateZ(-45deg);
+}
+#mobile-main_menu{
+    display: none;
+    width: 100%;
+    height: 50px;
+    background-color: #2b2b2b;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    z-index: 3;
+    padding: 0 20px;
+}
+#mobile-main_menu ul{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#mobile-main_menu ul a{
+    font-size: 14px;
+    font-family: 'Neutra Text TF';
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+/* banner */
+
+/* banner-frame */
+
+.banner{
+    background-image: url("../img/shakeshack-foodndrink-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.banner::before{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    background-color: rgba(0, 0, 0, .2);
+}
+.banner-title{
+    padding: 120px 0;
+    font-size: 32px;
+    font-family: "NotoSansKR-Bold";
+    color: #fff;
+    z-index: 1;
+    text-shadow: 0 0 25px rgba(0, 0, 0, .55);
+}
+
+
+
+/* category */
+
+/* category-frame */
+
+.category{
+    padding: 60px 40px;
+}
+.category-contents{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.category-contents li{
+    width: 8%;
+    /* background-color: #2b2b2b; */
+}
+.category-contents li a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    outline: none;
+}
+
+
+
+/* category-contents */
+
+.category-img, .category-title-kr, .category-title-en{
+    opacity: .5;
+    transition: .3s ease-out;
+}
+.category-img{
+    width: 85%;
+}
+.category-title-kr{
+    font-size: 16px;
+    font-family: "NotoSansKR-Bold";
+}
+.category-title-en{
+    font-size: 12px;
+    color: #999;
+}
+
+
+
+/* category-on */
+
+.category-contents li.on .category-img,
+.category-contents li:hover .category-img{
+    opacity: 1;
+}
+.category-contents li.on .category-title-kr,
+.category-contents li:hover .category-title-kr{
+    opacity: 1;
+}
+.category-contents li.on .category-title-en,
+.category-contents li:hover .category-title-en{
+    opacity: 1;
+}
+
+
+
+/* food */
+
+/* food-frame */
+
+.food{
+    padding-bottom: 60px;
+}
+.food-contents{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 10%;
+}
+.food-contents li{
+    width: 26.65%;
+    padding: 20px;
+    margin-bottom: 60px;
+    background-color: #fff;
+    box-shadow: 2px 4px 14px rgba(0, 0, 0, .2);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.food-title{
+    /* margin: 10px 0 5px; */
+    display: flex;
+    flex-direction: column;
+}
+.food-price{
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+}
+.food-price-top,
+.food-price-bot{
+    display: flex;
+    align-items: center;
+}
+
+
+
+/* food-contents */
+
+.food-img{
+    width: 100%;
+}
+.food-title-kr{
+    font-size: 16px;
+    font-family: "NotoSansKR-Bold";
+    white-space: nowrap;
+}
+.food-title-en{
+    line-height: 12px;
+}
+.food-title-en,
+.food-text{
+    font-size: 12px;
+    color: #999;
+}
+.food-text{
+    height: 51px;
+}
+.pack{
+    width: 75px;
+    font-size: 14px;
+    font-family: "NotoSansKR-Regular";
+    text-transform: uppercase;
+}
+
+.price{
+    width: 75px;
+    font-size: 16px;
+    font-family: "NotoSansKR-Bold";
+    color: #6EB43F;
+    text-align: right;
+}
+
+
+
+
+/* concretes-table */
+
+#concretes-location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.concretes-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.concretes-info img{
+    width: 90px;
+}
+.concretes-info p{
+    font-size: 20px;
+    font-family: "NotoSansKR-Bold";
+    color: #6EB43F;
+    line-height: 24px;
+    text-align: center;
+}
+.view-info{
+    width: 150px;
+    height: 40px;
+    background-color: #6EB43F;
+    border-radius: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.view-info p{
+    font-size: 18px;
+    font-family: "NotoSansKR-Bold";
+    color: #fff;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+.view-info img{
+    width: 30px;
+}
+
+
+
+/* store-info */
+
+.store-info-bg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 1;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.store-info-wrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.store-info-wrap a{
+    width: 100%;
+    padding: 0 40px;
+    display: flex;
+}
+.table-wrap{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+table{
+    width: 33.3333%;
+}
+th, td{
+    background-color: #fff;
+    font-size: 16px;
+}
+th{ 
+    width: 25%;
+}
+td{ 
+    width: 75%;
+    padding: 3px 0 3px 10px;
+}
+.store-menu{
+    background-color: #cfeebb;
+    color: #225500;
+}
+.close{
+    width: 80px;
+    font-size: 22px;
+    font-family: "NotoSansKR-Bold";
+    color: #fff;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, .5);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+
+/* footer-frame */
+
+footer{
+    background-color: #2b2b2b;
+}
+footer .inner{
+    flex-direction: column;
+}
+.footer-top{
+    width: 100%;
+    padding: 40px 0 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-top-contents{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-top-menu{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-bot{
+    width: 100%;
+    padding: 30px 0 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    position: relative;
+}
+
+
+
+/* footer-contents */
+
+.footer-logo{
+    width: 250px;
+    height: fit-content;
+    opacity: .5;
+    transform: translateY(50%);
+}
+.footer-top-contents-title{
+    font-size: 18px;
+    color: #999;
+}
+.footer-top-menu li a{
+    font-size: 12px;
+    color: #999;
+}
+.footer-line{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    opacity: .15;
+}
+.footer-bot p{
+    font-size: 12px;
+    color: #999;
+}

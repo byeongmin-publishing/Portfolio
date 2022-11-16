@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "regular";
+    src: url('../font/CBRegular.ttf');
+}
+
+
+
+/* section */
+
+#search{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 1;
+}
+#search .inner{
+    width: 1200px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding-bottom: 160px;
+}
+
+
+
+/* logo */
+
+#search .main-logo{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+#search .main-logo img{
+    width: 150px;
+}
+
+
+
+/* title */
+
+.title{
+    width: 100%;
+    padding: 0 0 40px;
+    border-bottom: 1px solid #ddd;
+    font-size: 32px;
+    font-weight: 700;
+    color: #555;
+    text-align: center;
+}
+
+
+
+/* result */
+
+/* result-frame */
+
+.result-info{
+    width: 100%;
+    padding-bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 240px;
+}
+.result-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+.result-title-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+}
+.result{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.result-text-wrap{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.symptomA,
+.symptomB,
+.symptomPart,
+.symptomText,
+.symptomMedical{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    gap: 10px;
+}
+.symptomMedical{
+    border: none;
+}
+ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    font-size: 16px;
+    line-height: 22px;
+    word-break: keep-all;
+}
+
+
+
+
+/* result-contents */
+
+.result-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: #69f;
+}
+.title-sub{
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    line-height: 20px;
+}
+.result-img{
+    width: 350px;
+    height: fit-content;
+}
+#search span{
+    width: 100px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #69f;
+    white-space: nowrap;
+}
+.back{
+    width: 240px;
+    height: 60px;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    color: #69f;
+    line-height: 57px;
+    text-align: center;
+    border: 3px solid #69f;
+    border-radius: 1000px;
+    transition: .3s ease-out;
+}
+.back:hover{
+    background-color: #69f;
+    color: #fff;
+}
