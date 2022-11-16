@@ -10,7 +10,7 @@ $(".option1").change(function(){
 
     $.ajax({
         type : "GET",
-        url:"../js/select-data.json",
+        url:"./js/select-data.json",
         dataType: "Json",       //제이슨 연결
         success:function(data){     //성공했을때
 
@@ -766,7 +766,7 @@ $(".search").click(function(e){ //눌렀을때
         $.ajax({
 
             type : "GET",
-            url:"../js/result-data.json",
+            url:"./js/result-data.json",
             dataType: "Json",  
 
 
