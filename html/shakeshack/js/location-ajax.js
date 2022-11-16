@@ -1,3 +1,4 @@
+// ㅠㅠ
 $(document).ready(function(){    
     $(".menu-section li").click(function(event){
     // Class ="menu-section li"를 누를때
