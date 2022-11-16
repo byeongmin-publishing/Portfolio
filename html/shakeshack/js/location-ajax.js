@@ -78,7 +78,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -104,7 +104,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -130,7 +130,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -157,7 +157,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
@@ -187,7 +187,7 @@ $(document).ready(function(){
         $.ajax({
 
             type : "GET",
-            url:"/js/location-data.json",
+            url:"../js/location-data.json",
             dataType: "Json",
     
             success:function(data){ 
