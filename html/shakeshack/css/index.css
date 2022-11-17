@@ -168,11 +168,12 @@ header nav{
 
 .slide{
     height: auto;
-    background-color: pink;
+    background-color: #000;
 }
 .slide .slide-contents{
     width: 100%;
 }
+
 
 
 

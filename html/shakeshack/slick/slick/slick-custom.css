@@ -17,11 +17,11 @@
 }
 .slick-prev{
     left: 75px;
-    background-image: url('../../img/arrow-left2-black.png');
+    background-image: url('../../img/arrow-left2.png');
 }
 .slick-next{
     right: 75px;
-    background-image: url('../../img/arrow-right2-black.png');
+    background-image: url('../../img/arrow-right2.png');
 }
 .slick-prev:before, .slick-next:before{
     color: transparent;    
@@ -69,4 +69,14 @@
 }
 .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus{
     opacity: .5;
+}
+
+
+
+.slide-contents{
+    opacity: .35;
+    transition: .5s;
+}
+.slick-center{
+    opacity: 1;
 }
