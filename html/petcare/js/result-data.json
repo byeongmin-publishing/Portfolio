@@ -9,7 +9,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀를 털거나 긁는다"
@@ -41,7 +41,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀를 털거나 긁는다"
@@ -70,7 +70,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀가 들리지 않는다"
@@ -101,7 +101,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀가 들리지 않는다"
@@ -131,7 +131,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀가 들리지 않는다"
@@ -160,7 +160,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀가 들리지 않는다"
@@ -190,7 +190,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀를 가려워한다, 아파한다, 머리를 흔든다"
@@ -221,7 +221,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀가 들리지 않는다"
@@ -253,7 +253,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀가 들리지 않는다"
@@ -285,7 +285,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀가 들리지 않는다"
@@ -318,7 +318,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "귀가 들리지 않는다"
@@ -358,7 +358,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "고름과 같은 분비물이 나온다"
@@ -389,7 +389,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "고름과 같은 분비물이 나온다"
@@ -419,7 +419,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈을 자주 찌푸린다"
@@ -450,7 +450,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈을 자주 찌푸린다"
@@ -481,7 +481,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈물을 많이 흘린다"
@@ -515,7 +515,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈물을 많이 흘린다"
@@ -545,7 +545,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈물을 많이 흘린다"
@@ -574,7 +574,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈물을 많이 흘린다"
@@ -604,7 +604,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 충혈된다"
@@ -633,7 +633,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -670,7 +670,7 @@
                 "장애 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-head.png"
+                "./img/petcare-info-symptom-head.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -702,7 +702,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -734,7 +734,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -763,7 +763,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -798,7 +798,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -830,7 +830,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -859,7 +859,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -890,7 +890,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -922,7 +922,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -953,7 +953,7 @@
                 "안구 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-eye.png"
+                "./img/petcare-info-symptom-eye.png"
             ],
             "symptomA":[
                 "눈이 이상하다"
@@ -985,7 +985,7 @@
                 "불특정 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "콧물을 많이 흘린다"
@@ -1017,7 +1017,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "콧물을 많이 흘린다"
@@ -1052,7 +1052,7 @@
                 "생식기 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-reproductive.png"
+                "./img/petcare-info-symptom-reproductive.png"
             ],
             "symptomA":[
                 "콧물을 많이 흘린다"
@@ -1083,7 +1083,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "콧물을 많이 흘린다"
@@ -1116,7 +1116,7 @@
                 "폐 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-lung.png"
+                "./img/petcare-info-symptom-lung.png"
             ],
             "symptomA":[
                 "콧물을 많이 흘린다"
@@ -1148,7 +1148,7 @@
                 "혈액 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "콧물을 많이 흘린다"
@@ -1180,7 +1180,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "콧물을 많이 흘린다"
@@ -1213,7 +1213,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "콧물, 재채기가 난다"
@@ -1246,7 +1246,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "콧물, 재채기가 난다"
@@ -1280,7 +1280,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "콧물, 재채기가 난다"
@@ -1314,7 +1314,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "콧물, 재채기가 난다"
@@ -1345,7 +1345,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "콧물, 재채기가 난다"
@@ -1376,7 +1376,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "코를 곤다"
@@ -1404,7 +1404,7 @@
                 "폐 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-lung.png"
+                "./img/petcare-info-symptom-lung.png"
             ],
             "symptomA":[
                 "코를 곤다"
@@ -1435,7 +1435,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "코를 곤다"
@@ -1469,7 +1469,7 @@
                 "코 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-nose.png"
+                "./img/petcare-info-symptom-nose.png"
             ],
             "symptomA":[
                 "코를 곤다"
@@ -1503,7 +1503,7 @@
                 "입 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-mouse.png"
+                "./img/petcare-info-symptom-mouse.png"
             ],
             "symptomA":[
                 "코를 곤다"
@@ -1539,7 +1539,7 @@
                 "심장 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-lung.png"
+                "./img/petcare-info-symptom-lung.png"
             ],
             "symptomA":[
                 "물을 많이 마시고 소변량이 증가했다"
@@ -1570,7 +1570,7 @@
                 "입 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-mouse.png"
+                "./img/petcare-info-symptom-mouse.png"
             ],
             "symptomA":[
                 "입안이 붉고 출혈이 있다, 이가 흔들린다"
@@ -1599,7 +1599,7 @@
                 "입 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-mouse.png"
+                "./img/petcare-info-symptom-mouse.png"
             ],
             "symptomA":[
                 "입안이 붉고 출혈이 있다, 이가 흔들린다"
@@ -1629,7 +1629,7 @@
                 "입 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-mouse.png"
+                "./img/petcare-info-symptom-mouse.png"
             ],
             "symptomA":[
                 "입안이 붉고 출혈이 있다, 이가 흔들린다"
@@ -1660,7 +1660,7 @@
                 "입 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-mouse.png"
+                "./img/petcare-info-symptom-mouse.png"
             ],
             "symptomA":[
                 "입안이 붉고 출혈이 있다, 이가 흔들린다"
@@ -1690,7 +1690,7 @@
                 "입 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-mouse.png"
+                "./img/petcare-info-symptom-mouse.png"
             ],
             "symptomA":[
                 "입안이 붉고 출혈이 있다, 이가 흔들린다"
@@ -1722,7 +1722,7 @@
                 "입 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-mouse.png"
+                "./img/petcare-info-symptom-mouse.png"
             ],
             "symptomA":[
                 "이가 갈색이나 검게 변색되었다"
@@ -1755,7 +1755,7 @@
                 "소화기 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-pancreas.png"
+                "./img/petcare-info-symptom-pancreas.png"
             ],
             "symptomA":[
                 "피부가 노랗다"
@@ -1786,7 +1786,7 @@
                 "혈액 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "피부가 노랗다"
@@ -1818,7 +1818,7 @@
                 "혈액 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "다치지 않았는데 보라색 멍이 들었다"
@@ -1848,7 +1848,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "이상한 냄새가 난다"
@@ -1880,7 +1880,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "멍울이 있다"
@@ -1910,7 +1910,7 @@
                 "가슴 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "멍울이 있다"
@@ -1938,7 +1938,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "습진이 나타난다, 가려워한다"
@@ -1968,7 +1968,7 @@
                 "내분비계 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-pancreas.png"
+                "./img/petcare-info-symptom-pancreas.png"
             ],
             "symptomA":[
                 "습진이 나타난다, 가려워한다"
@@ -2001,7 +2001,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "습진이 나타난다, 가려워한다"
@@ -2032,7 +2032,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "습진이 나타난다, 가려워한다"
@@ -2064,7 +2064,7 @@
                 "내분비계 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-pancreas.png"
+                "./img/petcare-info-symptom-pancreas.png"
             ],
             "symptomA":[
                 "털이 빠진다"
@@ -2096,7 +2096,7 @@
                 "내분비계 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "털이 빠진다"
@@ -2129,7 +2129,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "털이 빠진다"
@@ -2160,7 +2160,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "털이 빠진다"
@@ -2194,7 +2194,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "털이 빠진다"
@@ -2226,7 +2226,7 @@
                 "피부 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "털이 빠진다"
@@ -2258,7 +2258,7 @@
                 "호흡기 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-lung.png"
+                "./img/petcare-info-symptom-lung.png"
             ],
             "symptomA":[
                 "붓는다"
@@ -2293,7 +2293,7 @@
                 "심장 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-lung.png"
+                "./img/petcare-info-symptom-lung.png"
             ],
             "symptomA":[
                 "붓는다"
@@ -2328,7 +2328,7 @@
                 "심장 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-lung.png"
+                "./img/petcare-info-symptom-lung.png"
             ],
             "symptomA":[
                 "붓는다"
@@ -2366,7 +2366,7 @@
                 "심장 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-lung.png"
+                "./img/petcare-info-symptom-lung.png"
             ],
             "symptomA":[
                 "붓는다"
@@ -2402,7 +2402,7 @@
                 "불특정 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-default.png"
+                "./img/petcare-info-symptom-default.png"
             ],
             "symptomA":[
                 "붓는다"
@@ -2434,7 +2434,7 @@
                 "소화기 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-pancreas.png"
+                "./img/petcare-info-symptom-pancreas.png"
             ],
             "symptomA":[
                 "붓는다"
@@ -2473,7 +2473,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-backleg.png"
+                "./img/petcare-info-symptom-backleg.png"
             ],
             "symptomA":[
                 "다리를 절룩거리거나 한쪽 다리를 들고 다닌다"
@@ -2506,7 +2506,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-leg.png"
+                "./img/petcare-info-symptom-leg.png"
             ],
             "symptomA":[
                 "다리를 절룩거리거나 한쪽 다리를 들고 다닌다"
@@ -2536,7 +2536,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-backleg.png"
+                "./img/petcare-info-symptom-backleg.png"
             ],
             "symptomA":[
                 "다리를 절룩거리거나 한쪽 다리를 들고 다닌다"
@@ -2566,7 +2566,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-backleg.png"
+                "./img/petcare-info-symptom-backleg.png"
             ],
             "symptomA":[
                 "다리를 절룩거리거나 한쪽 다리를 들고 다닌다"
@@ -2596,7 +2596,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-leg.png"
+                "./img/petcare-info-symptom-leg.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2625,7 +2625,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-leg.png"
+                "./img/petcare-info-symptom-leg.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2659,7 +2659,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-leg.png"
+                "./img/petcare-info-symptom-leg.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2693,7 +2693,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-backleg.png"
+                "./img/petcare-info-symptom-backleg.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2723,7 +2723,7 @@
                 "등 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-back.png"
+                "./img/petcare-info-symptom-back.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2755,7 +2755,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-head.png"
+                "./img/petcare-info-symptom-head.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2787,7 +2787,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2819,7 +2819,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-backleg.png"
+                "./img/petcare-info-symptom-backleg.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2852,7 +2852,7 @@
                 "다리 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-backleg.png"
+                "./img/petcare-info-symptom-backleg.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2886,7 +2886,7 @@
                 "청각기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-ear.png"
+                "./img/petcare-info-symptom-ear.png"
             ],
             "symptomA":[
                 "걷는 모습이 이상하다"
@@ -2922,7 +2922,7 @@
                 "생식기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-reproductive.png"
+                "./img/petcare-info-symptom-reproductive.png"
             ],
             "symptomA":[
                 "생식기에서 고름이 나온다 (수컷)"
@@ -2956,7 +2956,7 @@
                 "생식기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-reproductive.png"
+                "./img/petcare-info-symptom-reproductive.png"
             ],
             "symptomA":[
                 "생식기에서 고름이 나온다 (수컷)"
@@ -2989,7 +2989,7 @@
                 "생식기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-reproductive.png"
+                "./img/petcare-info-symptom-reproductive.png"
             ],
             "symptomA":[
                 "생식기에서 고름이 나온다 (수컷)"
@@ -3024,7 +3024,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3057,7 +3057,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3090,7 +3090,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3126,7 +3126,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3160,7 +3160,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-pancreas.png"
+                "./img/petcare-info-symptom-pancreas.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3194,7 +3194,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3228,7 +3228,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3260,7 +3260,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-pancreas.png"
+                "./img/petcare-info-symptom-pancreas.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3292,7 +3292,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3325,7 +3325,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-reproductive.png"
+                "./img/petcare-info-symptom-reproductive.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3358,7 +3358,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "설사를 한다"
@@ -3392,7 +3392,7 @@
                 "생식기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-reproductive.png"
+                "./img/petcare-info-symptom-reproductive.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3427,7 +3427,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3460,7 +3460,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3495,7 +3495,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3528,7 +3528,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3562,7 +3562,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-pancreas.png"
+                "./img/petcare-info-symptom-pancreas.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3595,7 +3595,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3630,7 +3630,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3664,7 +3664,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3699,7 +3699,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
@@ -3733,7 +3733,7 @@
                 "소화기관 증상"
             ],
             "resultImg":[
-                "../img/petcare-info-symptom-stomach.png"
+                "./img/petcare-info-symptom-stomach.png"
             ],
             "symptomA":[
                 "반복적으로 토한다"
