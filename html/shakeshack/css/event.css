@@ -270,8 +270,11 @@ header nav{
 
 .event-contents-img{
     width: 100%;
-    height: 200px;
+    height: auto;
     border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .event-contents-img img{
     width: 100%;
