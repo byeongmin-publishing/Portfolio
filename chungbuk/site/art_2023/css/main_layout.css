@@ -542,7 +542,7 @@
 .rowgroup4 .youtube_wrap .youtube_text_box{display:inline-block;width:calc(100% - 850px);height:490px;padding-top:87px;padding-left:67px;background-color:#0c0c06;vertical-align:top;}
 .rowgroup4 .youtube_wrap .youtube_text_box h3.title{display:inline-block;margin:0;font-size:56px;color:#fff;letter-spacing:-0.03em;line-height:60px;font-family:'SCDream','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;font-weight:700;vertical-align:middle;}
 .rowgroup4 .youtube_wrap .youtube_text_box h3.title:before{display:none;}
-.rowgroup4 .youtube_wrap .youtube_text_box .more_view{display:inline-block;position:relative;margin-left:128px;padding-right:52px;font-size:17px;color:#fff;letter-spacing:0.05em;line-height:21px;font-family:'Trirong','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;font-weight:300;vertical-align:middle;text-decoration:none;}
+.rowgroup4 .youtube_wrap .youtube_text_box .more_view{display:inline-block;position:relative;margin-left:121px;padding-right:52px;font-size:17px;color:#fff;letter-spacing:0.05em;line-height:21px;font-family:'Trirong','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;font-weight:300;vertical-align:middle;text-decoration:none;}
 .rowgroup4 .youtube_wrap .youtube_text_box .more_view:before{display:block;position:absolute;top:-3px;right:0;opacity:0.3;width:30px;height:30px;box-sizing:border-box;border:1px solid #d1cead;border-radius:100%;transition-property:opacity, background-color;transition-duration:0.5s;transition-timing-function:cubic-bezier(.16,.48,.36,1);}
 .rowgroup4 .youtube_wrap .youtube_text_box .more_view:after{display:block;position:absolute;top:6px;right:12px;width:30px;height:12px;background:url(../images/main/youtube_moreview_arrow.png)center center / cover no-repeat;}
 .rowgroup4 .youtube_wrap .youtube_text_box .text_slide_box{position:relative;margin-top:27px;padding-top:34px;margin-left:3px;border-top:1px solid rgba(255, 255, 255, 0.3);}
@@ -584,7 +584,7 @@
     .rowgroup4 .youtube_wrap .youtube_thumnail_box .deco02{bottom:-55px;}
     .rowgroup4 .youtube_wrap .youtube_thumnail_box .youtube_thumnail_list .youtube_thumnail_item .item_area .item_bg{height:344px;}
     .rowgroup4 .youtube_wrap .youtube_text_box{width:calc(100% - 600px);height:344px;padding-top:40px;padding-left:40px;}
-    .rowgroup4 .youtube_wrap .youtube_text_box .more_view{margin-left:38px;}
+    .rowgroup4 .youtube_wrap .youtube_text_box .more_view{margin-left:33px;}
     .rowgroup4 .youtube_wrap .youtube_text_box h3.title{font-size:44px;}
     .rowgroup4 .youtube_wrap .youtube_text_box .text_slide_box{margin-top:10px;padding-top:18px;}
     .rowgroup4 .youtube_wrap .youtube_text_box .text_slide_box .text_slide_list .text_slide_item .item_area .title em{font-size:22px;line-height:32px;}
