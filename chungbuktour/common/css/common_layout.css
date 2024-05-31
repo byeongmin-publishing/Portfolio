@@ -373,7 +373,7 @@ input[type="submit"]{cursor:pointer;}
 #header .lnb .depth1_item.active .depth2_item.active .depth3_text{line-height:20px; font-size:15px;}
 #header .lnb .depth3_item.active .depth3_text{color:#438f18;}
 #header .lnb .depth3_item.has .depth3_text{padding-right:30px;}
-#header .lnb .depth1_item.active .depth2_item.active .depth3_text[target="_blank"] span:after{display: inline-block; width:12px; height:12px; margin-left: 9px; vertical-align: middle; background-image:url(../images/common_layout/common_icons.png); background-position: left -300px; transition: none;}
+#header .lnb .depth1_item.active .depth2_item.active .depth3_text[target="_blank"] span:after{display: inline-block; width:12px; height:12px; margin-left: 9px; vertical-align: middle; background-image:url(../images/common_layout/common_icon.png); background-position: left -300px; transition: none;}
 
 #header .lnb .depth4{display:block; visibility:hidden; opacity:0;}
 #header .lnb .depth1_item.active .depth2_item.active .depth3_item.active .depth4{visibility:visible; opacity:1;}
@@ -387,7 +387,7 @@ input[type="submit"]{cursor:pointer;}
 #header .lnb .depth1_item.active .depth2_item.active .depth3_item.active .depth4_item.active .depth4_text{color:#313131;}
 #header .lnb .depth4_text:hover{color:#313131;}
 #header .lnb .depth4_item.has .depth4_text{padding-right:26px;}
-#header .lnb .depth1_item.active .depth2_item.active .depth3_item.active .depth4_text[target="_blank"] span:after{display: inline-block; width:12px; height:12px; margin-left: 9px; vertical-align: middle; background-image:url(../images/common_layout/common_icons.png); background-position: left -300px; transition: none;}
+#header .lnb .depth1_item.active .depth2_item.active .depth3_item.active .depth4_text[target="_blank"] span:after{display: inline-block; width:12px; height:12px; margin-left: 9px; vertical-align: middle; background-image:url(../images/common_layout/common_icon.png); background-position: left -300px; transition: none;}
 
 #header .lnb .menu_hide{display:block;}
 
