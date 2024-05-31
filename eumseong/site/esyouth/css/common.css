@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/*한신정보기술 - 안병민 2023.10*/
+
+@media screen and (min-width:1001px) {
+    .lnb .menu .depth1_list{padding-left:450px;}
+}
+@media screen and (min-width:1001px) and (max-width:1660px) {
+    .lnb .menu .depth1_list{padding-left:325px;}
+    .lnb .menu .depth1_text{margin:0 28px;}
+}
+@media screen and (min-width:1001px) and (max-width:1400px) {
+    #header .logo .text{font-size:22px;}
+    .lnb .menu .depth1_list{padding-left:289px;}
+    .lnb .menu .depth1_text{margin:0 8px;}
+    .lnb .menu .depth1_text > span{font-size:15px;}
+}
+@media screen and (max-width:1000px) {
+    .lnb .menu .depth1_text{width:150px;}
+}
