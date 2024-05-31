@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* GangwonState */
+@font-face {
+    font-family: 'GangwonState';
+	font-weight: 550;
+    src: url('../font/GANGWONSTATE-SemiBold.woff') format('woff2'),
+	url('../font/GANGWONSTATE-SemiBold.woff') format('woff');
+}
+
+/* ONEMbile */
+@font-face {
+    font-family: 'ONEMobile';
+	font-weight: 600;
+    src: url('../font/ONEMobile-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'ONEMobile';
+	font-weight: 400;
+    src: url('../font/ONEMobile-Regular.woff') format('woff');
+}
+@font-face {
+    font-family: 'ONEMobile';
+	font-weight: 300;
+    src: url('../font/ONEMobile-Light.woff') format('woff');
+}
+
+/* Segoe UI */
+@font-face {
+    font-family: 'Segoe';
+	font-weight: 600;
+    src: url('../font/Segoe UI Bold.woff2') format('woff2'),
+	url('../font/Segoe UI Bold.woff') format('woff');
+}
+
+/* S-CoreDream */
+@font-face {
+	font-family: 'SCoreDream';
+	font-weight: 600;
+	src: url("../font/S-CoreDream-6Bold.woff2") format('woff2'),
+	url("../font/S-CoreDream-6Bold.woff") format('woff');
+}
