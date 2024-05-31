@@ -1,0 +1,43 @@
+
+@charset "utf-8";
+
+.header_box .wrap .logo a .logo_image{background-image:url(../images/common/logo.png);background-repeat:no-repeat;background-position:left top;}
+.header_box .wrap .logo a .logo_text{display:none;}
+.weatherbox{display:none;}
+
+@media all and (min-width:1401px){
+    #lnb .nav .depth1 .depth1_list{width:570px;}
+    #lnb .nav .depth1 .depth1_list .depth1_item{width:25%;}
+    /*#lnb .nav .depth1 .depth1_list .depth1_item:nth-child(2) .depth1_text{padding-left:55px;}*/
+}
+@media all and (min-width:1001px) and (max-width:1400px){
+    #lnb .nav .depth1 .depth1_list{text-align:right;}
+    #lnb .nav .depth1 .depth1_list .depth1_item{width:25%;}
+}
+@media all and (min-width:1001px){
+    .header_box .wrap .logo a .logo_image{width:312px;}
+}
+@media all and (max-width:1000px){
+    .header_box .wrap .logo a .logo_image{width:248px; background-size:248px auto;}
+}
+@media all and (max-width:640px){
+    .header_box .wrap .logo a .logo_image{height:44px;}
+}
+
+
+
+/* 담당자요청 실섭기준 상단 변경 */
+.header_top .gnb ul{float:left;}
+.header_top .gnb ul{display:block;width:auto;box-sizing:border-box;}
+.header_top .gnb ul li{display:block;float:left;position:relative;line-height:20px;box-sizing:border-box;}
+.header_top .gnb ul li a{display:block;position:relative;padding:15px 18px 14px 18px;font-size:15px;color:#646770;line-height:20px;letter-spacing:0;}
+.header_top .gnb ul li a:before{display:block;position:absolute;top:19px;right:0;width:1px;height:13px;background-color:#d9dfe7;content:'';}
+.header_top .gnb ul li a:after{display:block;position:absolute;top:0;left:0;width:1px;background-color:transparent;content:'';}
+.header_top .gnb ul li a:hover{background-color:#fafbfd;text-decoration:none;}
+.header_top .gnb ul li:last-child a:before{display:none;}
+.header_top .gnb ul li a:hover:before{top:0;height:100%;}
+.header_top .gnb ul li:last-child a:hover:before{display:block;}
+.header_top .gnb ul li a:hover:after{left:-1px;height:100%;background-color:#d9dfe7;}
+#lnb .lnb_topbox .lnb_gnb ul li.login{margin-right:0;}
+#lnb .lnb_topbox .lnb_gnb ul li.search{display:none;}
+.footer_box .family_box{display:none;}

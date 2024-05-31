@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+/* Layout */
+@import url('font.css');
+@import url('../../../common/css/default.css')/* 기본 default */;
+@import url('../../../common/common2021/css/common_layout.css')/* 상,하단 공통 레이아웃 */;
+@import url('common_layout.css')/* 개별 사이트id별로 상하단 공통 깨야할 때 */;
+@import url('common_layout_2024.css');
+@import url('main_layout.css');
+@import url('main_layout_2024.css');
