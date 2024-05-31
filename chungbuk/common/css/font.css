@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+/* 본고딕 NotoKR */
+
+@font-face{
+	font-family:'NotoKr';
+	font-weight: 200;
+	src:url("../font/NotoSansKR-Light.woff2") format('woff2'),
+	url("../font/NotoSansKR-Light.woff") format('woff');
+}
+
+@font-face{
+	font-family:'NotoKr';
+	font-weight: 100;
+	src:url("../font/NotoSansKR-Thin.woff2") format('woff2'),
+	url("../font/NotoSansKR-Thin.woff") format('woff');
+}
+
+@font-face{
+	font-family:'NotoKr';
+	font-weight: 400;
+	src:url("../font/SpoqaHanSans-Regular.woff2") format('woff2'),
+	url("../font/SpoqaHanSans-Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'NotoKr';
+	font-weight: 600;
+	src:url("../font/SpoqaHanSans-Bold.woff2") format('woff2'),
+	url("../font/SpoqaHanSans-Bold.woff") format('woff');
+}
+
+/* Opensans */
+@font-face{
+	font-family:'Opensans';
+	font-weight: 400;
+	src: url("../font/OpensansR.woff2") format('woff2'),
+	url("../font/OpensansR.woff") format('woff');
+}
+
+@font-face{
+	font-family:'Opensans';
+	font-weight: 600;
+	src: url("../font/OpensansB.woff2") format('woff2'),
+		url("../font/OpensansB.woff") format('woff');
+}
+
+
+@font-face{
+	font-family:'Josefin';
+	font-weight: bold;
+	src:url("../font/JosefinSans-Bold.woff2") format('woff2'),
+	url("../font/JosefinSans-Bold.woff") format('woff');
+}
+
+
+/* NanumR */
+@font-face {
+	font-family: 'NanumR';
+	src: url("../font/NanumSquareR.ttf") format('truetype'),
+	url("../font/NanumSquareR.woff2") format('woff2'),
+	url("../font/NanumSquareR.woff") format('woff');
+}
+
+/* binggrae */
+@font-face {
+	font-family: 'binggrae';
+    src: url("../font/Binggrae.woff");
+    src: url("../font/Binggrae.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'binggrae_bold';
+	src: url("../font/Binggrae-Bold.ttf") format('truetype');
+	src: url("../font/Binggrae-Bold.woff") format('woff');
+}
+
+/* gmarket */
+@font-face {
+	font-family: 'gmarket_light';
+	font-weight: 200;
+	src: url("../font/GmarketSansTTFLight.ttf") format('truetype');
+	src: url("../font/GmarketSansTTFLight.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'gmarket_medium';
+	font-weight: normal;
+	src: url("../font/GmarketSansTTFMedium.ttf") format('truetype');
+	src: url("../font/GmarketSansTTFMedium.woff") format('woff');
+}
+
+@font-face {
+	font-family: 'gmarket_bold';
+	font-weight: bold;
+	src: url("../font/GmarketSansTTFBold.ttf") format('truetype');
+	src: url("../font/GmarketSansTTFBold.woff") format('woff');
+}
