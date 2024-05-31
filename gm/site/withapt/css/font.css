@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+/* Pretendard */
+@font-face{
+    font-family: 'Pretendard';
+    font-weight: 200;
+    src: url("../font/Pretendard-Light.woff2") format('woff2'),
+    url("../font/Pretendard-Light.woff") format('woff');
+}
+@font-face{
+    font-family: 'Pretendard';
+    font-weight: 400;
+    src: url("../font/Pretendard-Regular.woff2") format('woff2'),
+    url("../font/Pretendard-Regular.woff") format('woff');
+}
+@font-face{
+    font-family: 'Pretendard';
+    font-weight: 500;
+    src: url("../font/Pretendard-Medium.woff2") format('woff2'),
+    url("../font/Pretendard-Medium.woff") format('woff');
+}
+@font-face{
+    font-family: 'Pretendard';
+    font-weight: 550;
+    src: url("../font/Pretendard-SemiBold.woff2") format('woff2'),
+    url("../font/Pretendard-SemiBold.woff") format('woff');
+}
+@font-face{
+    font-family: 'Pretendard';
+    font-weight: 600;
+    src: url("../font/Pretendard-Bold.woff2") format('woff2'),
+    url("../font/Pretendard-Bold.woff") format('woff');
+}
+@font-face{
+    font-family: 'Pretendard';
+    font-weight: 700;
+    src: url("../font/Pretendard-Black.woff2") format('woff2'),
+    url("../font/Pretendard-Black.woff") format('woff');
+}
+
+/* Montserrat */
+@font-face{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    src: url("../font/Montserrat-Bold.woff") format('woff');
+}
+
+/* SBAggro - 어그로체 */
+@font-face{
+    font-family: 'SBAggro';
+    font-weight: 200;
+    src: url("../font/SBAggroL.woff") format('woff');
+}
+@font-face{
+    font-family: 'SBAggro';
+    font-weight: 400;
+    src: url("../font/SBAggroM.woff") format('woff');
+}
+@font-face{
+    font-family: 'SBAggro';
+    font-weight: 600;
+    src: url("../font/SBAggroL.woff") format('woff');
+}
+
+/* S-CoreDream */
+@font-face {
+    font-family: 'S-CoreDream';
+    font-weight: 200;
+    src: url('../font/S-CoreDream-2ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'S-CoreDream';
+    font-weight: 400;
+    src: url('../font/S-CoreDream-4Regular.woff') format('woff');
+}
+
+/* Poppins */
+@font-face {
+    font-family: 'Poppins';
+    font-weight: 200;
+    src: url('../font/Poppins-Light.woff') format('woff');
+}
+
+/* Georgia */
+@font-face {
+    font-family: 'Georgia';
+    font-weight: 400;
+    src: url('../font/Georgia-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Georgia';
+    font-weight: 600;
+    src: url('../font/Georgia-Bold.woff2') format('woff2');
+}
