@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/*NotoSansKR*/
+@font-face{
+    font-family : 'NotoSansKR';
+    font-weight : 300;
+    src : url("../font/noto-sans-kr-v13-latin_korean-300.woff2") format('woff2'),
+    url("../font/noto-sans-kr-v13-latin_korean-300.woff") format('woff');
+}
+@font-face{
+    font-family : 'NotoSansKR';
+    font-weight : 400;
+    src : url("../font/noto-sans-kr-v13-latin_korean-regular.woff2") format('woff2'),
+    url("../font/noto-sans-kr-v13-latin_korean-regular.woff") format('woff');
+}
+@font-face{
+    font-family : 'NotoSansKR';
+    font-weight : 500;
+    src : url("../font/noto-sans-kr-v13-latin_korean-500.woff2") format('woff2'),
+    url("../font/noto-sans-kr-v13-latin_korean-500.woff") format('woff');
+}
+@font-face{
+    font-family : 'NotoSansKR';
+    font-weight : 600;
+    src : url("../font/NotoSansCJKkr-Bold.woff2") format('woff2'),
+    url("../font/NotoSansCJKkr-Bold.woff") format('woff');
+}
+
+
+/*NotoSansJP*/
+@font-face{
+    font-family : 'NotoSansJP';
+    font-weight : 100;
+    src : url("../font/NotoSansJP-Thin.woff") format('woff');
+}
+@font-face{
+    font-family : 'NotoSansJP';
+    font-weight : 300;
+    src : url("../font/NotoSansJP-Light.woff") format('woff');
+}
+@font-face{
+    font-family : 'NotoSansJP';
+    font-weight : 400;
+    src : url("../font/NotoSansJP-Regular.woff") format('woff');
+}
+@font-face{
+    font-family : 'NotoSansJP';
+    font-weight : 500;
+    src : url("../font/NotoSansJP-Medium.woff") format('woff');
+}
+@font-face{
+    font-family : 'NotoSansJP';
+    font-weight : 550;
+    src : url("../font/NotoSansJP-Regular.woff") format('woff');
+}
+@font-face{
+    font-family : 'NotoSansJP';
+    font-weight : 600;
+    src : url("../font/NotoSansJP-Bold.woff") format('woff');
+}
+
+
+/*Montserrat*/
+@font-face{
+    font-family : 'Montserrat';
+    font-weight : 100;
+    src : url("../font/Montserrat-Thin.woff") format('woff');
+}
+@font-face{
+    font-family : 'Montserrat';
+    font-weight : 300;
+    src : url("../font/Montserrat-Light.woff") format('woff');
+}
+@font-face{
+    font-family : 'Montserrat';
+    font-weight : 400;
+    src : url("../font/Montserrat-Regular.woff") format('woff');
+}
+@font-face{
+    font-family : 'Montserrat';
+    font-weight : 500;
+    src : url("../font/Montserrat-Medium.woff") format('woff');
+}
+@font-face{
+    font-family : 'Montserrat';
+    font-weight : 550;
+    src : url("../font/Montserrat-SemiBold.woff") format('woff');
+}
+@font-face{
+    font-family : 'Montserrat';
+    font-weight : 600;
+    src : url("../font/Montserrat-Bold.woff") format('woff');
+}
+
+
+/*Gmarket*/
+@font-face{
+    font-family : 'Gmarket';
+    font-weight : 300;
+    src : url("../font/GmarketSansLight.woff2") format('woff2'),
+    url("../font/GmarketSansLight.woff") format('woff');
+}
+@font-face{
+    font-family : 'Gmarket';
+    font-weight : 500;
+    src : url("../font/GmarketSansMedium.woff2") format('woff2'),
+    url("../font/GmarketSansMedium.woff") format('woff');
+}
