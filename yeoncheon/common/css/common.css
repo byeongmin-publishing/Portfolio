@@ -1,0 +1,82 @@
+/* 링크처리 */
+a:link {color:#636363; text-decoration:none;}
+a:visited {color:#636363; text-decoration:none;}
+a:hover {color:#0030ae; text-decoration:underline;}
+a:active {color:#0030ae; text-decoration:underline;}
+a:hover span {text-decoration:underline;}
+
+/* 입력 form */
+body.firefox fieldset {display:table-cell;}
+button {height:28px; padding-top:1px; padding-right:3px; padding-bottom:1px; padding-left:3px; line-height:normal;}
+button, input[type='button'], input[type='reset'], input[type='submit'] {overflow:visible;} /* ie6 ~ ie7 버튼 길어짐 해결 css */
+button:hover, input[type='button']:hover, input[type='reset']:hover, input[type='submit']:hover {text-decoration:underline;}
+button:hover span {text-decoration:underline;}
+input {height:24px; margin-top:1px; margin-right:1px; margin-bottom:1px; margin-left:1px; padding-top:1px; padding-right:3px; padding-bottom:1px; padding-left:3px; border-top-width:1px; border-top-style:solid; border-top-color:#dedede; border-right-width:1px; border-right-style:solid; border-right-color:#dedede; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#dedede; border-left-width:1px; border-left-style:solid; border-left-color:#dedede; line-height:normal;}
+input[type='submit'] {height:28px; line-height:normal;}
+input[type='radio'], input[type='checkbox'] {width:14px; height:14px; cursor:pointer;}
+input[type='checkbox'][disabled='disabled'], input[type='checkbox'][disabled='readonly'], input[type='radio'][disabled='disabled'], input[type='radio'][disabled='readonly'] {cursor:default;}
+input[type='image'] {height:auto; margin-top:0; margin-right:0; margin-bottom:0; margin-left:0; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0; border-top-width:0; border-right-width:0; border-bottom-width:0; border-left-width:0;}
+select {height:28px; padding-top:1px; padding-bottom:1px; padding-left:3px; border-top-width:1px; border-top-style:solid; border-top-color:#dedede; border-right-width:1px; border-right-style:solid; border-right-color:#dedede; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#dedede; border-left-width:1px; border-left-style:solid; border-left-color:#dedede; background-color:#fff; line-height:normal;}
+textarea {min-height:80px; padding-top:1px; padding-right:3px; padding-bottom:1px; padding-left:3px; border-top-width:1px; border-top-style:solid; border-top-color:#dedede; border-right-width:1px; border-right-style:solid; border-right-color:#dedede; border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#dedede; border-left-width:1px; border-left-style:solid; border-left-color:#dedede; line-height:normal;}
+
+/* 기타 */
+img, video, audio {max-width:100%; max-height:100%;}
+table {width:100%;}
+video {width:100%; height:100%;}
+audio {width:100%;}
+mark {background-color:transparent;}
+:before, :after {display:none; content:'';}
+
+/* slick 플러그인 */
+.slick-slider .slick-list {display:block; overflow-x:hidden; overflow-y:hidden; position:relative;}
+.slick-slider .slick-list.dragging {cursor:pointer;}
+.slick-slider .slick-list .slick-track {display:block; position:relative; top:0; left:0;}
+.slick-slider .slick-list .slick-track:before, .slick-slider .slick-list .slick-track:after {display:table;}
+.slick-slider .slick-list .slick-track:after {clear:both;}
+.slick-slider .slick-list.slick-loading .slick-track {visibility:hidden;}
+.slick-slider .slick-list .slick-track .slick-slide {display:none; float:left;}
+.slick-slider[dir='rtl'] .slick-list .slick-track .slick-slide {float:right;}
+.slick-slider .slick-list .slick-track .slick-slide img {display:inline-block;}
+.slick-slider .slick-list .slick-track .slick-slide.slick-loading img {display:none;}
+.slick-slider.slick-initialized .slick-list .slick-track .slick-slide {display:block;}
+.slick-slider .slick-list .slick-track.slick-loading .slick-slide {visibility:hidden;}
+.slick-slider .slick-arrow.slick-hidden {display:none;}
+
+/* 레이아웃 공통 */
+html, body {position:relative; height:100%;}
+body.freeze {overflow-x:hidden; overflow-y:hidden;}
+#wrapper {overflow-x:hidden; overflow-y:hidden; position:relative; width:100%; min-width:1200px;}
+body.dimmed #header, body.dimmed #footer {z-index:-1;}
+body {color:#555; font-size:15px; line-height:1.6em; font-family:'Malgun Gothic', '맑은 고딕', 'Dotum', '돋움', 'Gulim', '굴림', sans-serif; word-break:break-all;}
+.wrap {position:relative; width:1200px; margin-right:auto; margin-left:auto;}
+@media screen and (max-width:800px) {
+	#wrapper {min-width:0;}
+	.wrap {width:auto; margin-left:0; margin-right:0;}
+}
+
+/* 상단 */
+#header {position:relative; z-index:30; width:100%;}
+
+/* 본문바로가기 */
+#header .accessibility {position:fixed; top:0; left:0; z-index:90; width:100%;}
+#header .accessibility a {display:block; overflow-x:hidden; overflow-y:hidden; position:relative; width:100%; height:1px; text-align:center;}
+#header .accessibility a:focus, #header .accessibility a:hover, #header .accessibility a:active {height:auto; padding-top:5px; padding-bottom:5px; background-color:#000; color:#fff; font-size:14px; font-weight:600; line-height:inherit;}
+
+/* 본문 */
+#container {position:relative; z-index:10; width:100%;}
+
+/* 하단 */
+#footer {position:relative; z-index:20; width:100%;}
+
+/* 한신 내부 컨텐츠 */
+#footer .hanshin {border-top-width:1px; border-top-style:solid; border-top-color:#dedede; background-color:#fff;}
+#footer .hanshin .validator {border-bottom-width:1px; border-bottom-style:solid; border-bottom-color:#dedede;}
+#footer .hanshin .validator ul {padding-top:10px; padding-bottom:10px;}
+#footer .hanshin .validator ul li {margin-top:5px; font-size:14px; color:#000;}
+#footer .hanshin .validator ul li:first-child {margin-top:0;}
+#footer .hanshin .validator ul li a, #footer .hanshin .validator ul li button {margin-left:5px; font-size:14px; color:#000; vertical-align:middle;}
+#footer .hanshin .validator ul li a:first-child, #footer .hanshin .validator ul li button:first-child {margin-left:0;}
+#footer .hanshin .validator ul li button {height:auto; padding-top:0; padding-right:0; padding-bottom:0; padding-left:0;}
+
+
+
