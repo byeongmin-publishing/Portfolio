@@ -1,0 +1,85 @@
+html[lang="ko"] body{position:relative;font-size:16px;color:#464646;letter-spacing:-0.02em;line-height:26px;font-family:'Montserrat','NotoSansKR','NotoSansJP','Malgun Gothic','맑은 고딕',Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;font-weight:300;}
+html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item:nth-child(4) .depth2 .depth2_list .depth2_item:nth-child(1) .depth3{display:none;}
+
+/*header*/
+@media screen and (min-width: 1001px) {
+    html[lang="ko"] #header .header_box .wrap .logo{top:31px;font-size:0;line-height:0;}
+    html[lang="ko"] #header .header_box .wrap .logo a .image{width:109px;height:33px;background-image:url(../../public/images/sub/logo.png);}
+    html[lang="ko"] #header .header_box .wrap .logo a .text{display:none;padding-left:15px;transition:color 0.25s ease-in-out;}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item + .depth1_item{margin-left:25px;}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text{padding:0 26px;}
+
+    html[lang="ko"] #footer .footer_wrap .footer_right{width:800px;padding-left:50px;text-align:left;}
+    html[lang="ko"] #footer .footer_wrap .footer_right:before{height:100%;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_title{width:100%;text-align:right;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item,
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(2n - 1){width:calc((100% - 50px) / 2);}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(2n){margin-left:50px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(n + 3){margin-top:11px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item .text{float:left;width:auto;line-height:40px;vertical-align:top;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:last-child .text{padding-top:0;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item .tel{float:right;width:auto;font-size:26px;text-align:right;vertical-align:top;}
+}
+
+
+
+@media screen and (max-width:1820px) {
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list{padding-right:165px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item,
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(2n - 1){width:calc((100% - 30px) / 2);}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item + .depth1_item{margin-left:14px;}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text{padding:0 18px;}
+
+    html[lang="ko"] #footer .footer_wrap .footer_right{width:720px;padding-left:30px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(2n){margin-left:30px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item .text{line-height:30px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item .tel{font-size:24px;line-height:30px;}
+}
+@media screen and (max-width:1450px) {
+    html[lang="ko"] #header .header_box .wrap .logo{top:33px;}
+    html[lang="ko"] #header .header_box .wrap .logo a .image{width:100px;height:31px;}
+    html[lang="ko"] #header .header_box .wrap .logo a .text{font-size:16px;}
+    html[lang="ko"] #header .lnb .menu .depth1{padding-left:0;}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list{padding-right:0px;}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text{padding:0 6px;}
+
+
+    html[lang="ko"] #footer .footer_wrap .footer_left .footer_address_list{padding-top:22px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right{width:525px;padding-left:20px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item,
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(2n - 1){width:calc((100% - 20px) / 2);}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(2n){margin-left:20px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item .text{float:right;}
+}
+@media screen and (max-width:1200px) {
+    html[lang="ko"] #header .header_box .wrap .logo{top:36px;}
+    html[lang="ko"] #header .header_box .wrap .logo a .image{width:90px;height:27px;}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item + .depth1_item{margin-left:6px;}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item .depth1_text{padding:0 9px;}
+
+    html[lang="ko"] #footer .footer_wrap .footer_right{width:420px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item .text{line-height:24px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item .tel{font-size:20px;line-height:24px;}
+}
+@media screen and (max-width:1000px) {
+    html[lang="ko"] #header .header_box .wrap .logo{top:24px;font-size:0;line-height:0;}
+    html[lang="ko"] #header .header_box .wrap .logo a .text{display:none;}
+    html[lang="ko"] #header .lnb .menu .depth1{padding-left:0px;}
+    html[lang="ko"] #header .lnb .menu .depth1 .depth1_list .depth1_item + .depth1_item{margin-left:0px;}
+
+    html[lang="ko"] #footer .footer_wrap .footer_right{margin:30px auto 0;padding-top:30px;padding-left:0;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_title{padding-top:0;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list{padding:23px 0 0;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item{max-width:100%;padding:0;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:last-child{width:100%;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item .text{padding:0;}
+}
+@media screen and (max-width:640px) {
+    html[lang="ko"] #header .header_box .wrap .logo{top:18px;}
+
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list{width:180px;padding-top:10px;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item,
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(2n - 1){width:100%;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item{margin-top:10px !important;}
+    html[lang="ko"] #footer .footer_wrap .footer_right .footer_ask_list .footer_ask_item:nth-child(2n){margin:0;}
+}
