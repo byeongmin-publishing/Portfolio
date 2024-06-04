@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:site_name" content="사이트명 표시">
+    <meta property="og:url" content="url 표기">
+    <meta property="og:image" content="대표 이미지 경로">
+    <meta property="og:title" content="페이지 제목 표시">
+    <meta property="og:description" content="페이지 설명 표시">
+    <link rel="stylesheet" type="text/css" href="../../common/css/font.css" />
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../../common/css/font_ie8.css" /><![endif]-->
+    <link rel="stylesheet" type="text/css" href="../cyber/css/main.css" />
+    <!--[if lt IE 9]><script src="../../common/js/html5.js"></script><![endif]-->
+    <script src="../../common/js/jquery-1.12.4.HS-20200709.min.js"></script>
+    <script src="../../common/js/jquery-ui.min.js"></script>
+    <script src="../../common/js/NeoVirtualKeyboard.min.js"></script>
+    <script src="../../common/js/jquery.easing.1.3.js"></script>
+    <script src="../../common/js/jquery.screen.min.js"></script>
+    <script src="../../common/js/jquery.menu.min.js"></script>
+    <script src="../../common/js/slick.min.custom.1.6.0.7.js"></script>
+    <script src="../../common/js/slick.extensions.min.js"></script>
+    <script src="../../common/js/common_layout.js"></script>
+    <script src="../../common/js/jqueryCmm.js"></script>
+    <script src="../cyber/js/common.js"></script>
+    <script src="../cyber/js/jquery.fullpage.min.js"></script>
+    <script src="../cyber/js/main.js"></script>
+    <title>연천군청</title>
+
+</head>
+
+<body id="main" class="main">
+    <div id="wrapper">
+        <main id="container">
+            <div class="rowgroup rowgroup1 scroll_content">
+                <div class="accessibility">
+                    <a href="#contents">본문 바로가기</a>
+                </div>
+                <header id="header">
+                    <div class="header_top">
+                        <div class="wrap">
+                            <div class="gnb clearfix">
+                                <div class="site_link">
+                                    <ul class="clearfix">
+                                        <li class="active"><a href="https://www.yeoncheon.go.kr/www/index.do" target="_blank" title="새창" rel="noopener noreferrer">연천군청</a></li>
+                                        <li><a href="https://www.yca21.go.kr/" target="_blank" title="새창" rel="noopener noreferrer">군의회</a></li>
+                                        <li><a href="https://www.yeoncheon.go.kr/festival/index.do" target="_blank" title="새창" rel="noopener noreferrer">구석기축제</a></li>
+                                        <li><a href="https://www.yeoncheon.go.kr/tour/index.do" target="_blank" title="새창" rel="noopener noreferrer">문화관광</a></li>
+                                        <li><a href="https://www.yeoncheon.go.kr/archive/main.do" target="_blank" title="새창" rel="noopener noreferrer">문화도시 기억보관소</a></li>
+                                        <li><a href="https://www.yeoncheon.go.kr/reserve/index.do" target="_blank" title="새창" rel="noopener noreferrer">통합예약</a></li>
+                                    </ul>
+                                </div>
+                                <ul class="clearfix">
+                                    <li class="list sns">
+                                        <button type="button" class="sns_btn tit active" title="SNS목록 열기">SNS</button>
+                                        <div class="layer">
+                                            <button type="button" class="sns_close" title="SNS목록 닫기">SNS</button>
+                                            <ul>
+                                                <li><a href="https://www.facebook.com/talkyc" target="_blank" title="새창" class="text">페이스북</a></li>
+                                                <li><a href="https://blog.naver.com/iyc21net" target="_blank" title="새창" class="text">블로그</a></li>
+                                                <li><a href="https://www.instagram.com/yeoncheongun/" target="_blank" title="새창" class="text">인스타그램</a></li>
+                                                <li><a href="https://www.youtube.com/channel/UCZEpE6SeyW899p5izgRVS3Q" target="_blank" title="새창" class="text">유튜브</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="list sitemap"><a href="" class="tit">전체메뉴</a></li>
+                                    <li class="list language">
+                                        <button type="button" class="language_btn tit active" title="언어선택 열기">KOR</button>
+                                        <div class="layer">
+                                            <button type="button" class="lang_close" title="언어선택 닫기">KOR</button><!-- 현재 언어 -->
+                                            <ul>
+                                                <li><a href="" target="_blank" title="새창" class="text">ENG</a></li>
+                                                <li><a href="" target="_blank" title="새창" class="text">CHI</a></li>
+                                                <li><a href="" target="_blank" title="새창" class="text">JAP</a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="list zoom">
+                                        <a href="#" onclick="zoomIn();" class="zoom z1" title="글자크기 확대"><span>글자크기 확대</span></a>
+                                        <span class="tit">글자크기</span>
+                                        <a href="#" onclick="zoomOut();" class="zoom z2" title="글자크기 축소"><span>글자크기 축소</span></a>
+                                    </li>
+                                    <!--
+                                    <li class="list service"><button type="button" class="big service_button tit"><span>맞춤복지서비스</span></button></li>
+                                    <li class="list home"><button type="button" class="big family_button tit"><span>연천 패밀리 홈</span></button></li>
+                                    -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_box">
+                        <div class="lnb_wrap">
+                            <div class="wrap">
+                                <h1 class="logo">
+                                    <a href="./index.do" class="logo_anchor">
+                                        <span class="logo_image">
+                                            <img src="../cyber/images/common/logo_w.png" alt="다함께 미래로 Yes, 연천!">
+                                            <span class="logo_title">아우른 군민</span>
+                                        </span>
+                                    </a>
+                                </h1>
+                                <div class="lnb">
+                                    <nav class="menu after eachdown">
+                                        <div class="lnb_topbox">
+                                            <div class="wrap">
+                                                <div class="gnb clearfix">
+                                                    <ul class="clearfix">
+                                                        <li class="list sitemap"><a href="" class="tit">전체메뉴</a></li>
+                                                        <li class="list language">
+                                                            <button type="button" class="language_btn tit active" title="언어선택 열기">KOR</button>
+                                                            <div class="layer">
+                                                                <button type="button" class="lang_close" title="언어선택 닫기">KOR</button><!-- 현재 언어 -->
+                                                                <ul>
+                                                                    <li><a href="" target="_blank" title="새창" class="text">ENG</a></li>
+                                                                    <li><a href="" target="_blank" title="새창" class="text">CHI</a></li>
+                                                                    <li><a href="" target="_blank" title="새창" class="text">JAP</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                        <li class="list sns">
+                                                            <button type="button" class="sns_btn tit active" title="SNS목록 열기">SNS</button>
+                                                            <div class="layer">
+                                                                <button type="button" class="sns_close" title="SNS목록 닫기">KOR</button>
+                                                                <ul>
+                                                                    <li><a href="https://www.facebook.com/talkyc" target="_blank" title="새창" class="text">페이스북</a></li>
+                                                                    <li><a href="https://blog.naver.com/iyc21net" target="_blank" title="새창" class="text">블로그</a></li>
+                                                                    <li><a href="https://www.instagram.com/yeoncheongun/" target="_blank" title="새창" class="text">인스타그램</a></li>
+                                                                    <li><a href="https://www.youtube.com/channel/UCZEpE6SeyW899p5izgRVS3Q" target="_blank" title="새창" class="text">유튜브</a></li>
+                                                                </ul>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <div class="menu_show">
+                                                    <ul class="clearfix">
+                                                        <!--<li><button type="button" class="search_button">검색 열기</button></li>-->
+                                                        <li><button type="button" class="close_button">메뉴 닫기</button></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <h2 class="skip">메뉴</h2>
+                                        <div class="depth depth1">
+                                            <ul class="depth_list depth1_list clearfix">
+                                                <li class="depth_item depth1_item">
+                                                    <a href="" class="depth_text depth1_text"><span>아우른 군민</span></a>
+                                                    <div class="depth depth2">
+                                                        <div class="lnb_title">
+                                                            <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                            <div class="title_text">아우른 군민</div>
+                                                        </div>
+                                                        <ul class="depth_list depth2_list clearfix">
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>아우른 군민이란</span>
+                                                                </a>
+                                                                <div class="depth depth3">
+                                                                    <ul class="depth_list depth3_list clearfix">
+                                                                        <li class="depth_item depth3_item">
+                                                                            <a href="" class="depth_text depth3_text"><span>제도안내</span></a>
+                                                                        </li>
+                                                                        <li class="depth_item depth3_item">
+                                                                            <a href="" class="depth_text depth3_text"><span>군민증 샘플</span></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>아우른 군민 혜택</span>
+                                                                </a>
+                                                                <div class="depth depth3">
+                                                                    <ul class="depth_list depth3_list clearfix">
+                                                                        <li class="depth_item depth3_item">
+                                                                            <a href="" class="depth_text depth3_text"><span>혜택 안내</span></a>
+                                                                        </li>
+                                                                        <li class="depth_item depth3_item">
+                                                                            <a href="" class="depth_text depth3_text"><span>혜택 사이트 링크</span></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>아우른 군민 등록</span>
+                                                                </a>
+                                                                <div class="depth depth3">
+                                                                    <div class="depth depth3">
+                                                                        <ul class="depth_list depth3_list clearfix">
+                                                                            <li class="depth_item depth3_item">
+                                                                                <a href="" class="depth_text depth3_text"><span>가입절차 안내</span></a>
+                                                                            </li>
+                                                                            <li class="depth_item depth3_item">
+                                                                                <a href="" class="depth_text depth3_text"><span>회원가입</span></a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth1_item">
+                                                    <a href="" class="depth_text depth1_text"><span>이벤트</span></a>
+                                                    <div class="depth depth2">
+                                                        <div class="lnb_title">
+                                                            <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                            <div class="title_text">이벤트</div>
+                                                        </div>
+                                                        <ul class="depth_list depth2_list clearfix">
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>진행중인 이벤트</span>
+                                                                </a>
+                                                                <div class="depth depth3">
+                                                                    <ul class="depth_list depth3_list clearfix">
+                                                                        <li class="depth_item depth3_item">
+                                                                            <a href="" class="depth_text depth3_text"><span>이벤트 안내</span></a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>완료된 이벤트</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth1_item">
+                                                    <a href="" class="depth_text depth1_text"><span>연천군 소식</span></a>
+                                                    <div class="depth depth2">
+                                                        <div class="lnb_title">
+                                                            <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                            <div class="title_text">연천군 소식</div>
+                                                        </div>
+                                                        <ul class="depth_list depth2_list clearfix">
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>연천군 소식지</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>축제 ∙ 행사 소식</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth1_item">
+                                                    <a href="" class="depth_text depth1_text"><span>커뮤니티</span></a>
+                                                    <div class="depth depth2">
+                                                        <div class="lnb_title">
+                                                            <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                            <div class="title_text">커뮤니티</div>
+                                                        </div>
+                                                        <ul class="depth_list depth2_list clearfix">
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>공지사항</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>자주하는 질문</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="depth_item depth1_item">
+                                                    <a href="" class="depth_text depth1_text"><span>마이페이지</span></a>
+                                                    <div class="depth depth2">
+                                                        <div class="lnb_title">
+                                                            <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                            <div class="title_text">마이페이지</div>
+                                                        </div>
+                                                        <ul class="depth_list depth2_list clearfix">
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>나의 군민증</span>
+                                                                </a>
+                                                            </li>
+                                                            <li class="depth_item depth2_item">
+                                                                <a href="" class="depth_text depth2_text">
+                                                                    <span>내 정보 수정</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                                <div class="menu_show">
+                                    <ul class="clearfix">
+                                        <li class="menu_li"><button type="button" class="menu_button">메뉴 열기</button></li>
+                                        <!--
+                                        <li class="search"><button type="button" class="search_button">검색 열기</button></li>
+                                        <li class="service"><button type="button" class="big service_button">맞춤복지서비스</button></li>
+                                        <li class="family"><button type="button" class="big family_button">연천 패밀리 홈</button></li>
+                                        -->
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="lnb_curtain"><button type="button">메뉴 닫기</button></div>
+                        </div>
+                    </div>
+                </header>
+                <section>
+                    <h2 class="skip">메인 슬라이드</h2>
+                    <div class="main_slide_wrap">
+                        <div class="slide_title_box">
+                            <div class="top_title">
+                                <span class="title1"><em>연천군민이라면 누구나</em></span>
+                                <span class="title2"><em>Yes,</em></span>
+                            </div>
+                            <div class="bot_title">
+                                <span class="title3"><em>아우른 군민</em></span>
+                                <span class="title4"><em>을 만나보세요!</em></span>
+                            </div>
+                        </div>
+                        <div class="slide_menu_box">
+                            <ul class="slide_menu_list">
+                                <li class="slide_menu_item">
+                                    <a href="" class="item_area">
+                                        <i class="item_icon"></i>
+                                        <span class="item_text">아우른 군민 등록</span>
+                                        <i class="item_arrow"></i>
+                                    </a>
+                                </li>
+                                <li class="slide_menu_item">
+                                    <a href="" class="item_area">
+                                        <i class="item_icon"></i>
+                                        <span class="item_text">나의 군민증</span>
+                                        <i class="item_arrow"></i>
+                                    </a>
+                                </li>
+                                <li class="slide_menu_item">
+                                    <a href="" class="item_area">
+                                        <i class="item_icon"></i>
+                                        <span class="item_text">아우른 군민 혜택</span>
+                                        <i class="item_arrow"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slide_popup_box">
+                            <div class="slide_popup_list">
+                                <div class="slide_popup_item">
+                                    <a href="" class="item_area">
+                                        <!--
+                                            메인 비주얼 이미지 넣어주세요
+                                            .item_img : 이미지 링크
+                                            .item_bg : 배경링크 (이미지링크와 동일)
+                                        -->
+                                        <img class="item_img" src="../cyber/images/main/slide_popup_img01.jpg" alt="국민생각을 제도개선으로! 더 나은 연천을 위해 군민 모두 함께해요">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/slide_popup_img01.jpg);"></span>
+                                    </a>
+                                </div>
+                                <div class="slide_popup_item">
+                                    <a href="" class="item_area">
+                                        <img class="item_img" src="../cyber/images/main/slide_popup_img02.jpg" alt="슬기로운 여가생활, 공유누리와 함께해요 행정·공공기관의 시설·물품을 국민과 함께 쓰는 공유누리 서비스">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/slide_popup_img02.jpg);"></span>
+                                    </a>
+                                </div>
+                                <div class="slide_popup_item">
+                                    <a href="" class="item_area">
+                                        <img class="item_img" src="../cyber/images/main/slide_popup_img01.jpg" alt="국민생각을 제도개선으로! 더 나은 연천을 위해 군민 모두 함께해요">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/slide_popup_img01.jpg);"></span>
+                                    </a>
+                                </div>
+                                <div class="slide_popup_item">
+                                    <a href="" class="item_area">
+                                        <img class="item_img" src="../cyber/images/main/slide_popup_img02.jpg" alt="슬기로운 여가생활, 공유누리와 함께해요 행정·공공기관의 시설·물품을 국민과 함께 쓰는 공유누리 서비스">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/slide_popup_img02.jpg);"></span>
+                                    </a>
+                                </div>
+                                <!--
+                                    팝업이미지에 링크 없을때
+                                    <a href="" class="item_area"> 대신
+                                    <div class="item_area"> 넣어주세요
+                                -->
+                                <div class="slide_popup_item">
+                                    <div class="item_area">
+                                        <img class="item_img" src="../cyber/images/main/slide_popup_img02.jpg" alt="슬기로운 여가생활, 공유누리와 함께해요 행정·공공기관의 시설·물품을 국민과 함께 쓰는 공유누리 서비스">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/slide_popup_img02.jpg);"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="popup_slide_control">
+                                <button type="button" class="slick-arrow prev">이전</button>
+                                <button type="button" class="slick-arrow next">다음</button>
+                            </div>
+                            <div class="popup_deco_box">
+                                <span class="big_deco">POPUP ZONE</span>
+                                <span class="sub_deco">SCROLL</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="rowgroup rowgroup2">
+                <section>
+                    <div class="evnet_wrap">
+                        <div class="rowgroup_page">
+                            <span class="number">01</span>
+                            <span class="page">ongoing events</span>
+                        </div>
+                        <div class="event_box">
+                            <div class="title_box scroll_content">
+                                <h2>진행중인 이벤트</h2>
+                                <!--
+                                    진행중 이벤트(리스트)의 정보 넣어주세요
+                                    .item_btn : 제목
+                                    .item_text : 내용
+                                -->
+                                <span class="sub_title">연천군에서 진행중인 주요 이벤트를 빠르게 만나보세요!</span>
+                            </div>
+                            <ul class="event_list">
+                                <!--
+                                    2024.03.04 수정
+                                    .event_item .item_btn 버튼을 누르면 오른쪽 슬라이드가 변경되야 된다고 해서
+                                    .event_item 갯수 만큼 .event_slide_inner 갯수 같게 복사 부탁드립니다
+                                -->
+                                <li class="event_item active">
+                                    <!--
+                                        <c:forEach items="@@{bbsNttList01}" var="item"> 이렇게 복사할 경우 스크립트와 충돌이 나서
+                                        <button type="button" class="item_btn"><c:out value="${ item.title }" /></button> 이런식으로 내용만 삽입 가능한지 여쭤봅니다
+                                    -->
+                                    <button type="button" class="item_btn" title="선택됨">세계 생물권보전지역의 날 기념 SNS 이벤트</button>
+                                    <a href="" class="item_area">
+                                        <span class="item_text">
+                                            11월 3일은 세계 생물권보전지역의 날입니다! 생물권보전지역은 다양한 생물들이 건강하게 살 수 있도록 지켜주고 현명하게 이용하면서 자연과 사람이 조화롭게 지내는 곳이에요. 유네스코가 지정한 생물권보전지역을 SNS에 올리고 친구들에게 공유하세요! 유네스코가 지정한 생물권보전지역을 SNS에 올리고 친구들에게 공유하세요!
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="event_item">
+                                    <button type="button" class="item_btn">연네스코 인스타그램 &amp; 페이스북 팔로우 이벤트</button>
+                                    <a href="" class="item_area">
+                                        <span class="item_text">
+                                            11월 3일은 세계 생물권보전지역의 날입니다! 생물권보전지역은 다양한 생물들이 건강하게 살 수 있도록 지켜주고 현명하게 이용
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="event_item">
+                                    <button type="button" class="item_btn">베리어프리존 찾기 인스타그램 &amp; 페이스북 &amp; 네이버 블로그 팔로우 이벤트</button>
+                                    <a href="" class="item_area">
+                                        <span class="item_text">
+                                            11월 3일은 세계 생물권보전지역의 날입니다!
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="event_slide_box scroll_content">
+                            <div class="event_slide_deco"></div>
+                            <div class="event_slide_inner active">
+                                <div class="event_slide_list">
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <!--
+                                                진행중 이벤트(슬라이드)의 정보 넣어주세요
+                                                .item_img : 이미지링크
+                                                .item_bg : 배경링크 (이미지링크와 동일)
+                                            -->
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/event_slide_img01.jpg);"></span>
+                                        </a>
+                                    </div>
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/event_slide_img01.jpg);"></span>
+                                        </a>
+                                    </div>
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/event_slide_img01.jpg);"></span>
+                                        </a>
+                                    </div>
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/event_slide_img01.jpg);"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="event_control_shadow"></div>
+                                <div class="event_slide_control ">
+                                    <button type="button" class="slick-arrow prev">이전</button>
+                                    <button type="button" class="slick-arrow next">다음</button>
+                                    <span class="slick-text current"></span>
+                                    <span class="slick-text slice">/</span>
+                                    <span class="slick-text total"></span>
+                                </div>
+                            </div>
+                            <div class="event_slide_inner">
+                                <div class="event_slide_list">
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <!--
+                                                진행중 이벤트(슬라이드)의 정보 넣어주세요
+                                                .item_img : 이미지링크
+                                                .item_bg : 배경링크 (이미지링크와 동일)
+                                            -->
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img01.jpg);"></span>
+                                        </a>
+                                    </div>
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img01.jpg);"></span>
+                                        </a>
+                                    </div>
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img01.jpg);"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="event_control_shadow"></div>
+                                <div class="event_slide_control ">
+                                    <button type="button" class="slick-arrow prev">이전</button>
+                                    <button type="button" class="slick-arrow next">다음</button>
+                                    <span class="slick-text current"></span>
+                                    <span class="slick-text slice">/</span>
+                                    <span class="slick-text total"></span>
+                                </div>
+                            </div>
+                            <div class="event_slide_inner">
+                                <div class="event_slide_list">
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <!--
+                                                진행중 이벤트(슬라이드)의 정보 넣어주세요
+                                                .item_img : 이미지링크
+                                                .item_bg : 배경링크 (이미지링크와 동일)
+                                            -->
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img03.jpg);"></span>
+                                        </a>
+                                    </div>
+                                    <div class="event_slide_item">
+                                        <a href="" class="item_area">
+                                            <img class="item_img" src="../cyber/images/main/event_slide_img01.jpg" alt="">
+                                            <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img03.jpg);"></span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="event_control_shadow"></div>
+                                <div class="event_slide_control ">
+                                    <button type="button" class="slick-arrow prev">이전</button>
+                                    <button type="button" class="slick-arrow next">다음</button>
+                                    <span class="slick-text current"></span>
+                                    <span class="slick-text slice">/</span>
+                                    <span class="slick-text total"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="rowgroup rowgroup3">
+                <section>
+                    <div class="festival_wrap">
+                        <div class="festival_deco_box">
+                            <span class="deco deco01"></span>
+                            <span class="deco deco02"><em></em></span>
+                            <span class="deco deco03"></span> 
+                            <span class="deco deco04"><em></em></span>
+                            <span class="deco deco05"><em></em></span> 
+                            <span class="deco deco06"><em></em></span> 
+                        </div>
+                        <div class="rowgroup_page">
+                            <span class="number">02</span>
+                            <span class="page">festival &amp; events</span>
+                        </div>
+                        <div class="festival_box">
+                            <div class="title_box scroll_content">
+                                <h2>축제 · 행사 소식</h2>
+                                <span class="sub_title">연천군의 주요 축제 및 행사 소식을 한눈에 만나보세요!</span>
+                            </div>
+                            <ul class="festival_list">
+                                <li class="festival_item active">
+                                    <button type="button" class="item_btn" title="선택됨">
+                                        <span class="btn_inner">축제 소식</span>
+                                    </button>
+                                </li>
+                                <li class="festival_item">
+                                    <button type="button" class="item_btn">
+                                        <span class="btn_inner">행사 소식</span>
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="festival_slide_box clearfix on scroll_content">
+                            <div class="festival_slide_list">
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <!--
+                                            축제 · 행사 소식의 정보 넣어주세요
+                                            .item_bg : 이미지 링크
+                                            .item_title : 축제명
+                                            .item_date : 날짜
+                                        -->
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img01.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">연천읍 코스모스 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img02.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">구석기 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img03.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">청산 오이축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img04.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">통일바라기 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img01.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">구석기 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img02.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">연천읍 코스모스 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img03.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">통일바라기 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img04.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">청산 오이축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="festival_slide_control">
+                                <button type="button" class="slick-arrow prev"><span>이전</span></button>
+                                <button type="button" class="slick-arrow next"><span>다음</span></button>
+                            </div>
+                        </div>
+                        <div class="festival_slide_box clearfix scroll_content">
+                            <div class="festival_slide_list">
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img01.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">연천읍 코스모스 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img01.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">구석기 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img02.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">청산 오이축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img02.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">통일바라기 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img03.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">구석기 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img03.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">연천읍 코스모스 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img04.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">통일바라기 축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="festival_slide_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_bg" style="background-image:url(../cyber/images/main/festival_slide_img04.jpg);"></span>
+                                        <span class="item_title_box">
+                                            <span class="item_title">청산 오이축제</span>
+                                            <span class="item_date">2023 .01. 29</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="festival_slide_control">
+                                <button type="button" class="slick-arrow prev"><span>이전</span></button>
+                                <button type="button" class="slick-arrow next"><span>다음</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <div class="rowgroup rowgroup4">
+                <section>
+                    <div class="notice_wrap">
+                        <div class="rowgroup_page">
+                            <span class="number">03</span>
+                            <span class="page">notice &amp; information</span>
+                        </div>
+                        <div class="load_box">
+                            <h2>찾아오시는 길</h2>
+                            <div id="map" class="load_item"></div>
+                            <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=68d1413800c6212ec7f38019c9de3720&libraries=services"></script>
+                            <script>
+                            var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+                                mapOption = { 
+                                    center: new kakao.maps.LatLng(38.0965132153527, 127.075258645133), // 지도의 중심좌표
+                                    level: 3 // 지도의 확대 레벨
+                                };
+
+                                var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
+                                // 커스텀 오버레이에 표시할 내용입니다     
+                                // HTML 문자열 또는 Dom Element 입니다 
+                                var content = '<div class ="load_marker"></div>';
+
+                                // 커스텀 오버레이가 표시될 위치입니다 
+                                var position = new kakao.maps.LatLng(38.0965132153527, 127.075258645133);  
+
+                                // 커스텀 오버레이를 생성합니다
+                                var customOverlay = new kakao.maps.CustomOverlay({
+                                    position: position,
+                                    content: content   
+                                });
+
+                                // 커스텀 오버레이를 지도에 표시합니다
+                                customOverlay.setMap(map);
+                            </script>
+                            <div class="load_info_box">
+                                <span class="adress">경기도 연천군 연천읍 연천로 220</span>
+                                <span class="title">연천군청</span>
+                            </div>
+                        </div>
+                        <div class="notice_box">
+                            <ul class="notice_tab_list">
+                                <li class="notice_tab_item active">
+                                    <button type="button" class="item_btn" title="선택됨">공지사항</button>
+                                </li>
+                                <li class="notice_tab_item">
+                                    <button type="button" class="item_btn">자주 묻는 질문</button>
+                                </li>
+                            </ul>
+                            <ul class="notice_list active">
+                                <li class="notice_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title_box">
+                                            <!--
+                                                공지사항 게시글의 정보 넣어주세요
+                                                .item_date : 날짜
+                                                .item_title : 제목
+                                            -->
+                                            <!--
+                                                게시글이 새로 올라온 글일 경우
+                                                .item_title 아래에 <span class="new_icon">new<em class="skip">새 글</em></span> 넣어주세요
+                                            -->
+                                            <span class="item_date">2023. 12. 19</span>
+                                            <span class="item_title">[군민증발급] 군민증 발급에 대한 기준 및 안내사항[군민증발급] 군민증 발급에 대한 기준 및 안내사항[군민증발급] 군민증 발급에 대한 기준 및 안내사항[군민증발급] 군민증 발급에 대한 기준 및 안내사항 </span>
+                                            <span class="new_icon">new<em class="skip">새 글</em></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="notice_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title_box">
+                                            <span class="item_date">2023. 07. 10</span>
+                                            <span class="item_title">[구석기_공지사항] 구석기축제 우천 관련 안내사항[구석기_공지사항] 구석기축제 우천 관련 안내사항[구석기_공지사항] 구석기축제 우천 관련 안내사항[구석기_공지사항] 구석기축제 우천 관련 안내사항</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="notice_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title_box">
+                                            <span class="item_date">2023. 06. 05</span>
+                                            <span class="item_title">[군민증 혜택관련 사항] 군민증 혜택 관련 안내사항</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="notice_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title_box">
+                                            <span class="item_date">2023. 05. 10</span>
+                                            <span class="item_title">연천 구석기 축제 공지 및 안내사항</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="notice_list">
+                                <li class="notice_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title_box">
+                                            <!--
+                                                자주묻는질문 게시글의 정보 넣어주세요
+                                                .item_date : 날짜
+                                                .item_title : 제목
+                                            -->
+                                            <!--
+                                                게시글이 새로 올라온 글일 경우
+                                                .item_title 아래에 <span class="new_icon">new<em class="skip">새 글</em></span> 넣어주세요
+                                            -->
+                                            <span class="item_date">2023. 12. 19</span>
+                                            <span class="item_title">[자주 묻는 질문] 군민증 발급에 대한 기준 및 안내사항 </span>
+                                            <span class="new_icon">new<em class="skip">새 글</em></span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="notice_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title_box">
+                                            <span class="item_date">2023. 07. 10</span>
+                                            <span class="item_title">[자주 묻는 질문] 구석기축제 우천 관련 안내사항</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="notice_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title_box">
+                                            <span class="item_date">2023. 06. 05</span>
+                                            <span class="item_title">[자주 묻는 질문] 군민증 혜택 관련 안내사항</span>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="notice_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title_box">
+                                            <span class="item_date">2023. 05. 10</span>
+                                            <span class="item_title">연천 구석기 축제 공지 및 안내사항</span>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="notice_menu_list">
+                                <li class="notice_menu_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title">제도 안내</span>
+                                        <span class="item_text">바로가기</span>
+                                    </a>
+                                </li>
+                                <li class="notice_menu_item">
+                                    <a href="" class="item_area">
+                                        <span class="item_title">군민증 샘플</span>
+                                        <span class="item_text">바로가기</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="news_box">
+                                <div class="news_inner">
+                                    <span class="news_date">2023년 12월호</span>
+                                    <span class="news_title">연천 사랑 <em>소식지</em></span>
+                                    <ul class="news_link_list">
+                                        <li class="news_link_item">
+                                            <a href="" class="item_area">바로가기</a>
+                                        </li>
+                                        <li class="news_link_item">
+                                            <a href="" class="item_area">전체보기</a>
+                                        </li>
+                                    </ul>
+                                    <div class="news_img_box">
+                                        <img class="news_img" src="../cyber/images/main/notice_news_img01.jpg" alt="2023년 12월호 연천사랑 소식지 이미지">
+                                        <span class="news_bg" style="background-image:url(../cyber/images/main/notice_news_img01.jpg);"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <footer id="footer" class="rowgroup rowgroup5 fp-auto-height">
+                <button type="button" class="btn_top"><span>맨위로</span></button>
+                <!--
+                <div class="banner_box">
+                    <div class="wrap">
+                        <div class="banner">
+                            <h2>배너모음 <img src="../../common/images/common_layout/banner_text.png" alt="배너모음">
+                            </h2>
+                            <div class="banner_list">
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">부동산거래질서교란행위 신고센터</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">국민재난안전포털</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">경기도 옴부즈만</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">생활법령정보</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">경기도부동산포털</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">행정심판포털</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">부동산거래질서교란행위 신고센터</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">국민재난안전포털</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">경기도 옴부즈만</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">생활법령정보</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">경기도부동산포털</a></div>
+                                <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">행정심판포털</a></div>
+                            </div>
+                            <div class="controlbox">
+                                <div class="banner_control">
+                                    <button type="button" class="arrow prev">이전</button>
+                                    <button type="button" class="auto"></button>
+                                    <button type="button" class="arrow next">다음</button>
+                                    <a href="" target="_blank" class="more">배너 더보기</a>
+                                </div>
+                            </div>
+                            <div class="layer">
+                                <h3 class="skip">배너전체보기</h3>
+                                <div class="topbox">
+                                    <ul>
+                                        <li><button type="button" onclick="searchBanner('가','깋');" title="ㄱ 보기">ㄱ</button></li>
+                                        <li><button type="button" onclick="searchBanner('나','닣');" title="ㄴ 보기">ㄴ</button></li>
+                                        <li><button type="button" onclick="searchBanner('다','딯');" title="ㄷ 보기">ㄷ</button></li>
+                                        <li><button type="button" onclick="searchBanner('라','맇');" title="ㄹ 보기">ㄹ</button></li>
+                                        <li><button type="button" onclick="searchBanner('마','밓');" title="ㅁ 보기">ㅁ</button></li>
+                                        <li><button type="button" onclick="searchBanner('바','빟');" title="ㅂ 보기">ㅂ</button></li>
+                                        <li><button type="button" onclick="searchBanner('사','싷');" title="ㅅ 보기">ㅅ</button></li>
+                                        <li><button type="button" onclick="searchBanner('아','잏');" title="ㅇ 보기">ㅇ</button></li>
+                                        <li><button type="button" onclick="searchBanner('자','짛');" title="ㅈ 보기">ㅈ</button></li>
+                                        <li><button type="button" onclick="searchBanner('차','칳');" title="ㅊ 보기">ㅊ</button></li>
+                                        <li><button type="button" onclick="searchBanner('카','킿');" title="ㅋ 보기">ㅋ</button></li>
+                                        <li><button type="button" onclick="searchBanner('타','팋');" title="ㅌ 보기">ㅌ</button></li>
+                                        <li><button type="button" onclick="searchBanner('파','ㅍ');" title="ㅍ 보기">ㅍ</button></li>
+                                        <li><button type="button" onclick="searchBanner('하','힣');" title="ㅎ 보기">ㅎ</button></li>
+                                        <li class="f_all_bg"><button type="button" onclick="searchBanner('','');" title="전체보기">전체</button></li>
+                                    </ul>
+                                </div>
+                                <div class="listbox clearfix">
+                                </div>
+                                <button type="button" class="close">닫기</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+                <div class="footer_nav_box">
+                    <div class="wrap">
+                        <h1 class="footer_logo">
+                            <a href="./index.do" class="logo_anchor">
+                                <span class="logo_image"><img src="../cyber/images/common/footer_logo.png" alt="다함께 미래로 Yes, 연천!"></span>
+                            </a>
+                        </h1>
+                        <div class="footer_nav">
+                            <ul class="clearfix">
+                                <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3578" class="privacy">개인정보처리방침</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3580">영상정보처리기기 운영방침</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3581">저작권정책</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3582">이메일무단수집거부</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/www/selectBbsNttList.do?bbsNo=145&key=3585">홈페이지 개선의견</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3438">찾아오시는길</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_info">
+                            <div class="add">
+                                <address>[11017] 경기도 연천군 연천읍 연천로 220</address>
+                                <span class="call">대표전화 : <span>(031) 839 - 2114(교환)</span></span>
+                            </div>
+                            <p class="copy">Copyright ⓒ 2020 <span class="point">YEONCHEON-GUN.</span>All Rights Reserved</p>
+                            <p class="footer_warning">본 웹사이트에 게시된 이메일 주소가 자동수집되는 것을 거부하며, 위반시 "정보통신망법"에 의해 처벌됨을 유념하시기 바랍니다.</p>
+                            <a href="http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110" title="국가 공인 인증기관 : 웹와치 새창" target="_blank" rel="noopener noreferrer" class="wa_img">
+                                <img src="../../common/images/common_layout/wa_img.jpg" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </main>
+        <!-- //#container -->
+    </div>
+    <!-- //#wrapper -->
+</body>
+
+</html>

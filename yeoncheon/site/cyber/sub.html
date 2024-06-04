@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0, user-scalable=yes" />
+    <meta name="title" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="og:site_name" content="사이트명 표시">
+    <meta property="og:url" content="url 표기">
+    <meta property="og:image" content="대표 이미지 경로">
+    <meta property="og:title" content="페이지 제목 표시">
+    <meta property="og:description" content="페이지 설명 표시">
+    <link rel="stylesheet" type="text/css" href="../../common/css/font.css" />
+    <!--[if lt IE 9]><link rel="stylesheet" type="text/css" href="../../common/css/font_ie8.css" /><![endif]-->
+    <link rel="stylesheet" type="text/css" href="../cyber/css/sub.css" />
+    <!--[if lt IE 9]><script src="../../common/js/html5.js"></script><![endif]-->
+    <script src="../../common/js/jquery-1.12.4.HS-20200709.min.js"></script>
+    <script src="../../common/js/jquery-ui.min.js"></script>
+    <script src="../../common/js/NeoVirtualKeyboard.min.js"></script>
+    <script src="../../common/js/jquery.easing.1.3.js"></script>
+    <script src="../../common/js/jquery.screen.min.js"></script>
+    <script src="../../common/js/jquery.menu.min.js"></script>
+    <script src="../../common/js/slick.min.custom.1.6.0.7.js"></script>
+    <script src="../../common/js/slick.extensions.min.js"></script>
+    <script src="../../common/js/common_layout.js"></script>
+    <script src="../../common/js/common_sub.js"></script>
+    <script src="../../common/js/jqueryCmm.js"></script>
+    <script src="../cyber/js/common.js"></script>
+    <script src="../cyber/js/sub.js"></script>
+    <title>연천군청</title>
+
+</head>
+
+<body id="sub" class="sub">
+    <div class="accessibility">
+        <a href="#contents">본문 바로가기</a>
+    </div>
+    <div id="wrapper">
+        <script>
+
+            $(document).ready(function() {
+                getSubPopkeyword();
+            });
+        
+            var nowZoom = 100; // 현재비율
+            var maxZoom = 200; // 최대비율(500으로하면 5배 커진다)
+            var minZoom = 80; // 최소비율
+        
+            //화면 키운다.
+            function zoomIn(){
+             if(nowZoom < maxZoom){
+              nowZoom += 10; //25%씩 커진다.
+             }else{
+              return;
+             }
+             document.body.style.zoom = nowZoom + "%";
+            }
+        
+            //화면 줄인다.
+            function zoomOut(){
+             if(nowZoom > minZoom){
+              nowZoom -= 10; //25%씩 작아진다.
+             }else{
+              return;
+             }
+             document.body.style.zoom = nowZoom + "%";
+            }
+        
+            // 공백 제거
+            function trim(str) {
+                return str.replace(/^\s\s*/, '').replace(/\s\s*$/, '');
+            }
+        
+            function getSubPopkeyword() {
+                
+                var target		= "popword";
+                var range		= "W";
+                var collection  = "_ALL_";
+                var datatype   = "text";
+                $.ajax({
+                  type: "POST",
+                  url: "../../search/popword/popword.jsp",
+                  dataType: datatype,
+                  data: { "target" : target, "range" : range, "collection" : collection , "datatype" : datatype },
+                  success: function(text) {
+                     text = trim(text);
+                     var xml = $.parseXML(text);
+                        var tagStr = "";
+                        
+                        $(xml).find("Query").each(function(){
+                            tagStr += "<div class='keyword'><a href='/search/search.jsp?query="+$(this).text()+"'>"+$(this).text()+"</a></div>";
+                            if($(this).attr("id") == 5) return false;
+                        });
+                        
+                        $("#tagPopword").html(tagStr);
+                        
+                      }, error : function( jqXHR, textStatus, errorThrown ) {
+                        console.log( jqXHR.status );
+                        console.log( jqXHR.statusText );
+                        console.log( jqXHR.responseText );
+                        console.log( jqXHR.readyState );
+                    }
+                });
+            
+            }
+        
+            </script>
+        <header id="header">
+            <div class="header_top">
+                <div class="wrap">
+                    <div class="gnb clearfix">
+                        <div class="site_link">
+                            <ul class="clearfix">
+                                <li class="active"><a href="https://www.yeoncheon.go.kr/www/index.do" target="_blank" title="새창" rel="noopener noreferrer">연천군청</a></li>
+                                <li><a href="https://www.yca21.go.kr/" target="_blank" title="새창" rel="noopener noreferrer">군의회</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/festival/index.do" target="_blank" title="새창" rel="noopener noreferrer">구석기축제</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/tour/index.do" target="_blank" title="새창" rel="noopener noreferrer">문화관광</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/archive/main.do" target="_blank" title="새창" rel="noopener noreferrer">문화도시 기억보관소</a></li>
+                                <li><a href="https://www.yeoncheon.go.kr/reserve/index.do" target="_blank" title="새창" rel="noopener noreferrer">통합예약</a></li>
+                            </ul>
+                        </div>
+                        <ul class="clearfix">
+                            <li class="list sns">
+                                <button type="button" class="sns_btn tit active" title="SNS목록 열기">SNS</button>
+                                <div class="layer">
+                                    <button type="button" class="sns_close" title="SNS목록 닫기">SNS</button>
+                                    <ul>
+                                        <li><a href="https://www.facebook.com/talkyc" target="_blank" title="새창" class="text">페이스북</a></li>
+                                        <li><a href="https://blog.naver.com/iyc21net" target="_blank" title="새창" class="text">블로그</a></li>
+                                        <li><a href="https://www.instagram.com/yeoncheongun/" target="_blank" title="새창" class="text">인스타그램</a></li>
+                                        <li><a href="https://www.youtube.com/channel/UCZEpE6SeyW899p5izgRVS3Q" target="_blank" title="새창" class="text">유튜브</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list sitemap"><a href="" class="tit">전체메뉴</a></li>
+                            <li class="list language">
+                                <button type="button" class="language_btn tit active" title="언어선택 열기">KOR</button>
+                                <div class="layer">
+                                    <button type="button" class="lang_close" title="언어선택 닫기">KOR</button><!-- 현재 언어 -->
+                                    <ul>
+                                        <li><a href="" target="_blank" title="새창" class="text">ENG</a></li>
+                                        <li><a href="" target="_blank" title="새창" class="text">CHI</a></li>
+                                        <li><a href="" target="_blank" title="새창" class="text">JAP</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list zoom">
+								<a href="#" onclick="zoomIn();" class="zoom z1" title="글자크기 확대"><span>글자크기 확대</span></a>
+								<span class="tit">글자크기</span>
+								<a href="#" onclick="zoomOut();" class="zoom z2" title="글자크기 축소"><span>글자크기 축소</span></a>
+							</li>
+                            <!--
+                            <li class="list service"><button type="button" class="big service_button tit"><span>맞춤복지서비스</span></button></li>
+                            <li class="list home"><button type="button" class="big family_button tit"><span>연천 패밀리 홈</span></button></li>
+                            -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="header_box">
+                <div class="lnb_wrap">
+                    <div class="wrap">
+                        <h1 class="logo">
+                            <a href="./index.do" class="logo_anchor">
+                                <span class="logo_image">
+                                    <img src="../cyber/images/common/logo_w.png" alt="다함께 미래로 Yes, 연천!">
+                                    <span class="logo_title">아우른 군민</span>
+                                </span>
+                            </a>
+                        </h1>
+                        <div class="lnb">
+                            <nav class="menu after eachdown">
+                                <div class="lnb_topbox">
+                                    <div class="wrap">
+                                        <div class="gnb clearfix">
+                                            <ul class="clearfix">
+                                                <li class="list sitemap"><a href="" class="tit">전체메뉴</a></li>
+                                                <li class="list language">
+                                                    <button type="button" class="language_btn tit active" title="언어선택 열기">KOR</button>
+                                                    <div class="layer">
+                                                        <button type="button" class="lang_close" title="언어선택 닫기">KOR</button><!-- 현재 언어 -->
+                                                        <ul>
+                                                            <li><a href="" target="_blank" title="새창" class="text">ENG</a></li>
+                                                            <li><a href="" target="_blank" title="새창" class="text">CHI</a></li>
+                                                            <li><a href="" target="_blank" title="새창" class="text">JAP</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="list sns">
+                                                    <button type="button" class="sns_btn tit active" title="SNS목록 열기">SNS</button>
+                                                    <div class="layer">
+                                                        <button type="button" class="sns_close" title="SNS목록 닫기">KOR</button>
+                                                        <ul>
+                                                            <li><a href="https://www.facebook.com/talkyc" target="_blank" title="새창" class="text">페이스북</a></li>
+                                                            <li><a href="https://blog.naver.com/iyc21net" target="_blank" title="새창" class="text">블로그</a></li>
+                                                            <li><a href="https://www.instagram.com/yeoncheongun/" target="_blank" title="새창" class="text">인스타그램</a></li>
+                                                            <li><a href="https://www.youtube.com/channel/UCZEpE6SeyW899p5izgRVS3Q" target="_blank" title="새창" class="text">유튜브</a></li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="menu_show">
+                                            <ul class="clearfix">
+                                                <!--<li><button type="button" class="search_button">검색 열기</button></li>-->
+                                                <li><button type="button" class="close_button">메뉴 닫기</button></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <h2 class="skip">메뉴</h2>
+                                <div class="depth depth1">
+                                    <ul class="depth_list depth1_list clearfix">
+                                        <li class="depth_item depth1_item">
+                                            <a href="" class="depth_text depth1_text"><span>아우른 군민</span></a>
+                                            <div class="depth depth2">
+                                                <div class="lnb_title">
+                                                    <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                    <div class="title_text">아우른 군민</div>
+                                                </div>
+                                                <ul class="depth_list depth2_list clearfix">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>아우른 군민이란</span>
+                                                        </a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list clearfix">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="" class="depth_text depth3_text"><span>제도안내</span></a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="" class="depth_text depth3_text"><span>군민증 샘플</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>아우른 군민 혜택</span>
+                                                        </a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list clearfix">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="" class="depth_text depth3_text"><span>혜택 안내</span></a>
+                                                                </li>
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="" class="depth_text depth3_text"><span>혜택 사이트 링크</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>아우른 군민 등록</span>
+                                                        </a>
+                                                        <div class="depth depth3">
+                                                            <div class="depth depth3">
+                                                                <ul class="depth_list depth3_list clearfix">
+                                                                    <li class="depth_item depth3_item">
+                                                                        <a href="" class="depth_text depth3_text"><span>가입절차 안내</span></a>
+                                                                    </li>
+                                                                    <li class="depth_item depth3_item">
+                                                                        <a href="" class="depth_text depth3_text"><span>회원가입</span></a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="depth_item depth1_item">
+                                            <a href="" class="depth_text depth1_text"><span>이벤트</span></a>
+                                            <div class="depth depth2">
+                                                <div class="lnb_title">
+                                                    <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                    <div class="title_text">이벤트</div>
+                                                </div>
+                                                <ul class="depth_list depth2_list clearfix">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>진행중인 이벤트</span>
+                                                        </a>
+                                                        <div class="depth depth3">
+                                                            <ul class="depth_list depth3_list clearfix">
+                                                                <li class="depth_item depth3_item">
+                                                                    <a href="" class="depth_text depth3_text"><span>이벤트 안내</span></a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>완료된 이벤트</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="depth_item depth1_item">
+                                            <a href="" class="depth_text depth1_text"><span>연천군 소식</span></a>
+                                            <div class="depth depth2">
+                                                <div class="lnb_title">
+                                                    <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                    <div class="title_text">연천군 소식</div>
+                                                </div>
+                                                <ul class="depth_list depth2_list clearfix">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>연천군 소식지</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>축제 ∙ 행사 소식</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="depth_item depth1_item">
+                                            <a href="" class="depth_text depth1_text"><span>커뮤니티</span></a>
+                                            <div class="depth depth2">
+                                                <div class="lnb_title">
+                                                    <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                    <div class="title_text">커뮤니티</div>
+                                                </div>
+                                                <ul class="depth_list depth2_list clearfix">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>공지사항</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>자주하는 질문</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="depth_item depth1_item">
+                                            <a href="" class="depth_text depth1_text"><span>마이페이지</span></a>
+                                            <div class="depth depth2">
+                                                <div class="lnb_title">
+                                                    <p class="sub_text">다함께 미래로<br>Yes, 연천!</p>
+                                                    <div class="title_text">마이페이지</div>
+                                                </div>
+                                                <ul class="depth_list depth2_list clearfix">
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>나의 군민증</span>
+                                                        </a>
+                                                    </li>
+                                                    <li class="depth_item depth2_item">
+                                                        <a href="" class="depth_text depth2_text">
+                                                            <span>내 정보 수정</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="menu_show">
+                            <ul class="clearfix">
+                                <li class="menu_li"><button type="button" class="menu_button">메뉴 열기</button></li>
+                                <!--
+                                <li class="search"><button type="button" class="search_button">검색 열기</button></li>
+                                <li class="service"><button type="button" class="big service_button">맞춤복지서비스</button></li>
+                                <li class="family"><button type="button" class="big family_button">연천 패밀리 홈</button></li>
+                                -->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="lnb_curtain"><button type="button">메뉴 닫기</button></div>
+                </div>
+            </div>
+        </header>
+        <div class="sub_visual_box">
+            <!--
+                현재 1차메뉴에 따라 .sub_visual에 클래스 type 달아주세요
+                아우른 군민 : type1
+                이벤트 : type2
+                연천군 소식 : type3
+                커뮤니티 : type4
+                마이페이지 : type5
+            -->
+            <span class="sub_visual type1"></span>
+        </div>
+        <div id="container">
+            <div class="wrap clearfix">
+                <main class="colgroup">
+                    <article>
+                        <header class="sub_head">
+                            <div class="sub_info">
+                                <div class="sub_title">
+                                    <!--
+                                        현재 1차메뉴명 영문으로 넣어주세요
+                                        아우른 군민 : AUREUN COUNTY
+                                        이벤트 : EVENT
+                                        연천군 소식 : YEONCHEONGUN NEWS
+                                        커뮤니티 : COMMUNITY
+                                        마이페이지 : MY PAGE
+                                    -->
+                                    <h2>AUREUN COUNTY</h2>
+                                    <!--현재 1차메뉴명 한글로 넣어주세요-->
+                                    <span>아우른 군민</span>
+                                </div>
+                                <div class="breadcrumbs">
+                                    <ol class="breadcrumbs_list">
+                                        <!-- 차수에 맞게 링크 추가해주세요 -->
+                                        <li class="breadcrumbs_item breadcrumbs_home"><a href="./index.do" class="breadcrumbs_anchor"><span class="skip">홈</span></a></li>
+                                        <li class="breadcrumbs_item"><a href="#n" class="breadcrumbs_anchor">1차메뉴</a></li>
+                                        <li class="breadcrumbs_item"><a href="#n" class="breadcrumbs_anchor">2차메뉴</a></li>
+                                        <li class="breadcrumbs_item"><span class="breadcrumbs_anchor">3차메뉴</span></li>
+                                    </ol>
+                                </div>
+                                <div class="content_title_box">
+                                    <!-- 현재 콘텐츠명 넣어주세요 -->
+                                    <h2 class="content_title">현재 콘텐츠명</h2>
+                                    <div class="addons">
+                                        <ul class="addons_list clearfix">
+                                            <li class="addons_item sns_share">
+                                                <button type="button" class="addons_button" title="sns 목록열기">공유하기</button>
+                                                <div class="share_panel">
+                                                    <h3 class="skip">공유하기</h3>
+                                                    <ul class="share_list clearfix">
+                                                        <li class="share_item youtube"><a href="#n" target="_blank" title="새창" class="share_anchor">유튜브</a></li>
+                                                        <li class="share_item blog"><a href="#n" target="_blank" title="새창" class="share_anchor">블로그</a></li>
+                                                        <li class="share_item facebook"><a href="#n" target="_blank" title="새창" class="share_anchor">페이스북</a></li>
+                                                        <li class="share_item insta"><a href="#n" target="_blank" title="새창" class="share_anchor">인스타그램</a></li>
+                                                    </ul>
+                                                    <button type="button" class="share_close">닫기</button>
+                                                </div>
+                                            </li>
+                                            <li class="addons_item print"><button type="button" class="addons_button print_btn" title="새창">인쇄하기</button></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </header>
+                        <div id="contents" class="cts@@{key}">
+
+
+
+
+
+
+
+
+                            <div class="joininfo_wrap">
+                                <div class="wrap">
+                                    <h3>군민증 샘플</h3>
+                                    <div class="sample_wrap">
+                                        <span class="bg_title">SAMPLE</span>
+                                        <div class="idcard_item">
+                                            <div class="item_area">
+                                                <span class="item_logo">다함께 미래로 Yes, 연천!</span>
+                                                <span class="item_number">제 24-01-00001호</span>
+                                                <div class="item_inner">
+                                                    <span class="item_text">호로고루 해바라기</span>
+                                                    <div class="item_title_box">
+                                                        <span class="item_title">연천 <em class="title_sub">아우른 군민증</em></span>
+                                                        <span class="item_name">김 연 천<em class="name_sub">님</em></span>
+                                                        <span class="item_date">2024.03.09</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h3 class="magin_t_55">아우른 군민 가입절차 안내</h3>
+                                    <div class="join_step_box">
+                                        <ol class="join_step_list clearfix">
+                                            <li class="join_step_item">
+                                                <span class="item_count">01</span>
+                                                <span class="item_area">
+                                                    <i class="item_icon type1"></i>
+                                                    <span class="item_text">아우른 군민 신청</span>
+                                                </span>
+                                            </li>
+                                            <li class="join_step_item">
+                                                <span class="item_count">02</span>
+                                                <span class="item_area">
+                                                    <i class="item_icon type2"></i>
+                                                    <span class="item_text">개인정보동의및 개인정보 입력</span>
+                                                </span>
+                                            </li>
+                                            <li class="join_step_item">
+                                                <span class="item_count">03</span>
+                                                <span class="item_area">
+                                                    <i class="item_icon type3"></i>
+                                                    <span class="item_text">아우른 군민신청 완료</span>
+                                                </span>
+                                            </li>
+                                            <li class="join_step_item">
+                                                <span class="item_count">04</span>
+                                                <span class="item_area">
+                                                    <i class="item_icon type4"></i>
+                                                    <span class="item_text">아우른 군민증발급</span>
+                                                </span>
+                                            </li>
+                                        </ol>
+                                        <a href="" class="btn bg_btn"><span>아우른 군민 발급하기</span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                    </article>
+                </main>
+            </div>
+        </div>
+        <!-- //#container -->
+        <footer id="footer">
+            <button type="button" class="btn_top"><span>맨위로</span></button>
+            <!--
+            <div class="banner_box">
+                <div class="wrap">
+                    <div class="banner">
+                        <h2>배너모음 <img src="../../common/images/common_layout/banner_text.png" alt="배너모음">
+                        </h2>
+                        <div class="banner_list">
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">부동산거래질서교란행위 신고센터</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">국민재난안전포털</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">경기도 옴부즈만</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">생활법령정보</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">경기도부동산포털</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">행정심판포털</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">부동산거래질서교란행위 신고센터</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">국민재난안전포털</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">경기도 옴부즈만</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">생활법령정보</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">경기도부동산포털</a></div>
+                            <div class="banner_item"><a href="" target="_blank" title="배너 새창열림">행정심판포털</a></div>
+                        </div>
+                        <div class="controlbox">
+                            <div class="banner_control">
+                                <button type="button" class="arrow prev">이전</button>
+                                <button type="button" class="auto"></button>
+                                <button type="button" class="arrow next">다음</button>
+                                <a href="" target="_blank" class="more">배너 더보기</a>
+                            </div>
+                        </div>
+                        <div class="layer">
+							<h3 class="skip">배너전체보기</h3>
+							<div class="topbox">
+								<ul>
+									<li><button type="button" onclick="searchBanner('가','깋');" title="ㄱ 보기">ㄱ</button></li>
+									<li><button type="button" onclick="searchBanner('나','닣');" title="ㄴ 보기">ㄴ</button></li>
+									<li><button type="button" onclick="searchBanner('다','딯');" title="ㄷ 보기">ㄷ</button></li>
+									<li><button type="button" onclick="searchBanner('라','맇');" title="ㄹ 보기">ㄹ</button></li>
+									<li><button type="button" onclick="searchBanner('마','밓');" title="ㅁ 보기">ㅁ</button></li>
+									<li><button type="button" onclick="searchBanner('바','빟');" title="ㅂ 보기">ㅂ</button></li>
+									<li><button type="button" onclick="searchBanner('사','싷');" title="ㅅ 보기">ㅅ</button></li>
+									<li><button type="button" onclick="searchBanner('아','잏');" title="ㅇ 보기">ㅇ</button></li>
+									<li><button type="button" onclick="searchBanner('자','짛');" title="ㅈ 보기">ㅈ</button></li>
+									<li><button type="button" onclick="searchBanner('차','칳');" title="ㅊ 보기">ㅊ</button></li>
+									<li><button type="button" onclick="searchBanner('카','킿');" title="ㅋ 보기">ㅋ</button></li>
+									<li><button type="button" onclick="searchBanner('타','팋');" title="ㅌ 보기">ㅌ</button></li>
+									<li><button type="button" onclick="searchBanner('파','ㅍ');" title="ㅍ 보기">ㅍ</button></li>
+									<li><button type="button" onclick="searchBanner('하','힣');" title="ㅎ 보기">ㅎ</button></li>
+									<li class="f_all_bg"><button type="button" onclick="searchBanner('','');" title="전체보기">전체</button></li>
+								</ul>
+							</div>
+							<div class="listbox clearfix">
+							</div>
+							<button type="button" class="close">닫기</button>
+						</div>
+                    </div>
+                </div>
+            </div>
+            -->
+            <div class="footer_nav_box">
+                <div class="wrap">
+                    <h1 class="footer_logo">
+                        <a href="./index.do" class="logo_anchor">
+                            <span class="logo_image"><img src="../cyber/images/common/footer_logo.png" alt="다함께 미래로 Yes, 연천!"></span>
+                        </a>
+                    </h1>
+                    <div class="footer_nav">
+                        <ul class="clearfix">
+                            <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3578" class="privacy">개인정보처리방침</a></li>
+                            <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3580">영상정보처리기기 운영방침</a></li>
+                            <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3581">저작권정책</a></li>
+                            <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3582">이메일무단수집거부</a></li>
+                            <li><a href="https://www.yeoncheon.go.kr/www/selectBbsNttList.do?bbsNo=145&key=3585">홈페이지 개선의견</a></li>
+                            <li><a href="https://www.yeoncheon.go.kr/www/contents.do?key=3438">찾아오시는길</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_info">
+                        <div class="add">
+                            <address>[11017] 경기도 연천군 연천읍 연천로 220</address>
+                            <span class="call">대표전화 : <span>(031) 839 - 2114(교환)</span></span>
+                        </div>
+                        <p class="copy">Copyright ⓒ 2020 <span class="point">YEONCHEON-GUN.</span>All Rights Reserved</p>
+                        <p class="footer_warning">본 웹사이트에 게시된 이메일 주소가 자동수집되는 것을 거부하며, 위반시 "정보통신망법"에 의해 처벌됨을 유념하시기 바랍니다.</p>
+                        <a href="http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110" title="국가 공인 인증기관 : 웹와치 새창" target="_blank" rel="noopener noreferrer" class="wa_img">
+                            <img src="../../common/images/common_layout/wa_img.jpg" alt="과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- //#wrapper -->
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* Giants */
+@font-face{
+	font-family:'Giants';
+	font-weight: 400;
+	src:url("../font/Giants-Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'Giants';
+	font-weight: 600;
+	src:url("../font/Giants-Bold.woff") format('woff');
+}
+
+
+/* Wanted */
+@font-face{
+	font-family:'Wanted';
+	font-weight: 400;
+	src:url("../font/WantedSans-Regular.woff") format('woff');
+}
+@font-face{
+	font-family:'Wanted';
+	font-weight: 500;
+	src:url("../font/WantedSans-Medium.woff") format('woff');
+}
+@font-face{
+	font-family:'Wanted';
+	font-weight: 600;
+	src:url("../font/WantedSans-Bold.woff") format('woff');
+}
+@font-face{
+	font-family:'Wanted';
+	font-weight: 700;
+	src:url("../font/WantedSans-SemiBold.woff") format('woff');
+}
+@font-face{
+	font-family:'Wanted';
+	font-weight: 800;
+	src:url("../font/WantedSans-ExtraBold.woff") format('woff');
+}
+
+
+/* Jalnan */
+@font-face{
+	font-family:'Jalnan';
+	font-weight: 400;
+	src:url("../font/Jalnan.woff") format('woff');
+}
+
+
+/* NotoSansKR */
+@font-face{
+	font-family:'NotoKR';
+	font-weight: 300;
+	src:url("../font/noto-sans-kr-v13-latin_korean-300.woff") format('woff');
+}
+@font-face{
+	font-family:'NotoKR';
+	font-weight: 400;
+	src:url("../font/noto-sans-kr-v13-latin_korean-400.woff") format('woff');
+}
+@font-face{
+	font-family:'NotoKR';
+	font-weight: 500;
+	src:url("../font/noto-sans-kr-v13-latin_korean-500.woff") format('woff');
+}
+@font-face{
+	font-family:'NotoKR';
+	font-weight: 600;
+	src:url("../font/noto-sans-kr-v13-latin_korean-600.woff") format('woff');
+}
