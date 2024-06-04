@@ -1,0 +1,5 @@
+@charset "UTF-8";
+
+/* (주)한신정보기술 김지경 - 2023.07 */
+
+body.www #footer.visual_footer:before{height: calc(100% + 100px);background-image: url("/site/public/images/common/visual_footer.png");}
