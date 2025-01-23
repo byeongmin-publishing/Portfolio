@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/* SOYO */
+@font-face{
+    font-family:'SOYO';
+    font-weight:600;
+    src:url("../font/SOYO-Maple-Bold.woff") format('woff');
+}
+
+
+/* Paper */
+@font-face{
+    font-family:'Paper';
+    font-weight:400;
+    src:url("../font/Paperlogy-4Regular.woff") format('woff');
+}
+@font-face{
+    font-family:'Paper';
+    font-weight:500;
+    src:url("../font/Paperlogy-5Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'Paper';
+    font-weight:600;
+    src:url('../font/Paperlogy-6Bold.woff') format('woff');
+}
+@font-face{
+    font-family:'Paper';
+    font-weight:700;
+    src:url('../font/Paperlogy-7SemiBold.woff') format('woff');
+}
+
+@font-face{
+    font-family:'Paper';
+    font-weight:800;
+    src:url('../font/Paperlogy-8ExtraBold.woff') format('woff');
+}
+
+
+/* Pre */
+@font-face{
+    font-family:'Pre';
+    font-weight:100;
+    src:url("../font/Pretendard-Thin.woff") format('woff');
+}
+@font-face{
+    font-family:'Pre';
+    font-weight:200;
+    src:url("../font/Pretendard-ExtraLight.woff") format('woff');
+}
+@font-face{
+    font-family:'Pre';
+    font-weight:300;
+    src:url("../font/Pretendard-Light.woff") format('woff');
+}
+@font-face{
+    font-family:'Pre';
+    font-weight:400;
+    src:url("../font/Pretendard-Regular.woff") format('woff');
+}
+@font-face{
+    font-family:'Pre';
+    font-weight:500;
+    src:url("../font/Pretendard-Medium.woff") format('woff');
+}
+@font-face{
+    font-family:'Pre';
+    font-weight:700;
+    src:url("../font/Pretendard-SemiBold.woff") format('woff');
+}
+
+
+/* Score */
+@font-face{
+    font-family:'Score';
+    font-weight:500;
+    src:url("../font/S-CoreDream-5Medium.woff") format('woff');
+}
+
+
+/* PCPeace */
+@font-face{
+    font-family:'PCPeace';
+    font-weight:300;
+    src:url("../font/PyeongChangPeace-Light.woff") format('woff');
+}
